@@ -37,12 +37,7 @@ markdownify <- function(df) {
     comment.string <- ifelse(is.na(comment),"",comment)
     comment.string <- sub("SadFace","&#9785;",comment.string,fixed=TRUE)
     return(sprintf(
-"| %s
-| %s
-| %s
-| %s
-| %s
-|",
+"| %s | %s | %s | %s | %s |",
       weeknum.string,
       filelink.string,
       date.string,
