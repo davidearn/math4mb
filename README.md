@@ -1,5 +1,7 @@
 ## This page is under construction
 
-![const](images/under-construction.gif)
+The course information sheet can be found here:
 
-## For the moment you can find last year's course info on the [2017 Math 4MB3 course wiki](http://lalashan.mcmaster.ca/theobio/4MB3/index.php/Main_Page)
+![courseoutline](handouts/4mbinfo2018.pdf)
+
+## For the moment, further information can be found on last year's course web site [2017 Math 4MB3 course wiki](http://lalashan.mcmaster.ca/theobio/4MB3/index.php/Main_Page)
