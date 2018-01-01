@@ -1,4 +1,4 @@
-# Course Material for Mathematics 4MB/6MB at McMaster University
+# Course Material for Math 4MB/6MB at McMaster University
 
 - [Course information sheet](handouts/4mbinfo_2018.pdf)
 - [Lecture Schedule](lectures/LectureSchedule.md)
