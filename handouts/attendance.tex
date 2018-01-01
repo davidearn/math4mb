@@ -1,0 +1,73 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+\pagestyle{empty}
+
+%%%%%%%%%%%%%%%%%%%%%%
+%% ATTENDANCE TABLE %%
+%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{tabularx}
+\newcommand{\attendancetableline}[1]{#1 & & & & & & & & & & \\ \hline}
+\newcommand{\attendancetable}{%
+\begin{tabularx}{0.75\textwidth}{ r | X | X | X | X | X || X | X | X | X | X |}
+  \hline
+  \attendancetableline{0}
+  \attendancetableline{10}
+  \attendancetableline{20}
+  \attendancetableline{30}
+%%  \attendancetableline{40}
+%%  \attendancetableline{50}
+%%  \attendancetableline{60}
+%%  \attendancetableline{70}
+%%  \attendancetableline{80}
+%%  \attendancetableline{90}
+\end{tabularx}
+}
+%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\Huge
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{center}
+{\bfseries Math 4MB3/6MB3 attendance count}
+\end{center}
+
+\medskip
+Date: \underline{\hspace{10cm}}
+
+\medskip
+Time: \underline{\hspace{5cm}}
+
+\medskip
+Lecture \#: \underline{\hspace{2.5cm}}
+
+\vspace{12pt}
+\begin{center}
+\attendancetable
+\end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\vspace{1in}
+
+\begin{center}
+{\bfseries Math 4MB3/6MB3 attendance count}
+\end{center}
+
+\medskip
+Date: \underline{\hspace{10cm}}
+
+\medskip
+Time: \underline{\hspace{5cm}}
+
+\medskip
+Lecture \#: \underline{\hspace{2.5cm}}
+
+\vspace{12pt}
+\begin{center}
+\attendancetable
+\end{center}
+
+\end{document}
