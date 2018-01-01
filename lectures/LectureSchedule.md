@@ -8,7 +8,6 @@
 ## Lecture Schedule
 | W | L | Date | Topic | Links/Comments |
 |---|---|------|-------|----------------|
-
 | 1
 | [01](4mbl01_2017.pdf)
 | Mon 9 Jan 2017

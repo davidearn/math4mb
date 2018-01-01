@@ -19,8 +19,7 @@ LectureScheduleTOP <-
 
 ## Lecture Schedule
 | W | L | Date | Topic | Links/Comments |
-|---|---|------|-------|----------------|
-"
+|---|---|------|-------|----------------|"
 
 LectureScheduleBOTTOM <-
   ""
