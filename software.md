@@ -1,3 +1,5 @@
+# SOFTWARE
+
 There are several software packages that you must have on your laptop for this course.
 * LaTeX
 * R (and the RStudio GUI for R)
@@ -6,17 +8,17 @@ There are several software packages that you must have on your laptop for this c
 * A spell-checker that understands LaTeX
 You can find the Windows and OS X versions of the packages collected at http://ms.mcmaster.ca/math4mb3.
 
-#A note about running workstation software remotely for Math & Stats graduate students
+# A note about running workstation software remotely for Math & Stats graduate students
 
 If you don't have the above applications installed on your laptop or home computer, you can connect to your desktop linux workstation and run them remotely.  This is much easier if you have a Mac or linux computer, but it can still be done for Windows computers.  See [Running Server and Workstation Applications Remotely](http://www.math.mcmaster.ca/mathcomputing/software/?page=running_apps_remotely) on the [Math & Stats Computing Resources web site](http://www.math.mcmaster.ca/mathcomputing/).
 
-#XPPAUT for numerical analysis of dynamical systems
+# XPPAUT for numerical analysis of dynamical systems
 
 XPPAUT is a powerful program for exploration and bifurcation analysis of dynamical systems.  It is already installed on all of the linux workstations in the math department (which you can login to remotely , as well as from the console).  More importantly, it is open-source free software, which can be downloaded and installed on any computer.
 
 There are many online resources available for XPPAUT:
 * [XPPAUT home page](http://www.math.pitt.edu/~bard/xpp/xpp.html) (where you can download the source code and/or pre-compiled executables)
-* Bard Ermentrout's book on XPPAUT: <cite>Erme02</cite>
+* Bard Ermentrout's [book on XPPAUT](https://www.amazon.ca/exec/obidos/ASIN/0898715067/): <cite>Erme02</cite>
 * Bard Ermentrout's [XPPAUT scholarpedia page](http://www.scholarpedia.org/article/XPPAUT)
 * [XPP online help](http://www.math.pitt.edu/~bard/xpp/help/xpphelp.html)
 * [Emacs xpp-mode](emacs_xpp-mode.md)
@@ -28,7 +30,7 @@ If you do want to use AUTO directly then you can find the latest version to down
 
 XPPAUT has limited graphical capabilities, but it is always possible to save output data to a file and use R to create professional graphics.
 
-##Installation & Configuration Notes for XPP
+## Installation & Configuration Notes for XPP
 
 ### Windows
 * XPPAUT uses X11 graphics which are not native to Windows
@@ -52,13 +54,13 @@ After installing XPPAUT, you should be able to explore the SIR model using [[Med
 ```
 then click the _phaseflow_ button and hit `RETURN`.  You should then see a sensible phase portrait.  If you're not working from the command line then start XPPAUT and load `SIR.ode`.
 
-#R
+# R
 
 [R](http://www.r-project.org) is an open-source programming language that you can download and install on any computer (it is installed already on all the grad student workstations in the math department).  Installing R gives you the language interpreter and a simple interactive shell.
 
 [RStudio](https://www.rstudio.com/products/rstudio/) is an integrated development environment (IDE) for R. It includes a console, syntax-highlighting editor that supports direct code execution, as well as tools for plotting, history, debugging and workspace management.
 
-#LaTeX
+# LaTeX
 
 The standard system for mathematical typesetting.  You must use it for your assignments, final project and presentations.   
 
@@ -73,7 +75,7 @@ There are several distributions of TeX but [TeXLive](https://www.tug.org/texlive
 ### OS X
 * [https://www.tug.org/mactex/ MacTeX] is a bundle of TeXLive plus TeXShop (a very good editor) and a number of tools.
 
-#Emacs
+# Emacs
 Emacs is a very powerful editor and can be used for - among other things - R, LaTeX. The learning curve is a little bit steep, but the payoff comes in efficiency.  Use is optional but encouraged.
 
 ## Installation & Configuration Notes for Emacs
@@ -81,7 +83,7 @@ Emacs is a very powerful editor and can be used for - among other things - R, La
 ### Windows
 * make sure to run bin/addpm once in order to configure emacs and create an icon under the Start menu
 
-#Spell-checkers and word counters that understand LaTeX
+# Spell-checkers and word counters that understand LaTeX
 
 There are a number of [spell-checkers that understand LaTeX](http://en.wikibooks.org/wiki/LaTeX/Tips_and_Tricks#Spell-checking_and_Word_Counting), for example:
 * ispell
@@ -95,7 +97,7 @@ The unix wc command can be used to count words in a plain text file.  To use it,
 ```
 where you need to insert the _filename_ of the file in question.
 
-#Tools for online collaboration on documents and code
+# Tools for online collaboration on documents and code
 
 [GitHub](https://github.com/)
 * collaboration on anything, with superb version control
@@ -104,4 +106,4 @@ where you need to insert the _filename_ of the file in question.
 * very simple and convenient, but less-than-superb version control
 
 
-[Main page](.)
+[Main page for this course](.)
