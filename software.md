@@ -8,7 +8,7 @@ There are several software packages that you must have on your laptop for this c
 * A spell-checker that understands LaTeX
 You can find the Windows and OS X versions of the packages collected at http://ms.mcmaster.ca/math4mb3.
 
-# A note about running workstation software remotely for Math & Stats graduate students
+### A note about running workstation software remotely for Math & Stats graduate students
 
 If you don't have the above applications installed on your laptop or home computer, you can connect to your desktop linux workstation and run them remotely.  This is much easier if you have a Mac or linux computer, but it can still be done for Windows computers.  See [Running Server and Workstation Applications Remotely](http://www.math.mcmaster.ca/mathcomputing/software/?page=running_apps_remotely) on the [Math & Stats Computing Resources web site](http://www.math.mcmaster.ca/mathcomputing/).
 
