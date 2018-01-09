@@ -15,12 +15,13 @@ LectureScheduleTOP <-
 * Please e-mail the instructor if you find any errors in slides.
 
 ## Lecture Schedule
+
 | W | L | Date | Topic | Links/Comments |
 |---|---|------|-------|----------------|"
 
-LectureScheduleBOTTOM <-
+LectureScheduleBOTTOM <- sprintf(
   "
-[Math 4MB/6MB main page](https://davidearn.github.io/math4mb/)"
+[Main page for this course](https://davidearn.github.io/math%s/)",course.code)
 
 markdownify <- function(df) {
   with(df,{
