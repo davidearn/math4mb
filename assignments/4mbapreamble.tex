@@ -1,0 +1,189 @@
+%% page layout
+\textheight 9in 
+\textwidth 6.5in
+\topmargin -0.5in
+\oddsidemargin 0in
+\evensidemargin 0in
+%\hoffset=-0.5in
+\voffset=-0.25in
+
+%% packages
+\usepackage{scrtime} % for \thistime (this package MUST be listed first!)
+\usepackage{amsmath} % essential for cases environment
+\usepackage{amsthm} % for theorems and proofs
+\usepackage{amsfonts} % mathbb
+\usepackage{graphics,graphicx}
+\usepackage{multirow} % fancy tables
+\usepackage{wasysym} % circle symbols (including half-filled circles)
+\usepackage{enumerate} % fancier enumeration (e.g., a,b,c, ...)
+%\usepackage{xcolor}
+\usepackage{color}
+\newcommand{\de}[1]{{\color{red}{\bfseries DE:} #1}}
+
+%% for solutions to multiple choice questions:
+\newcommand{\correct}{{\color{blue}\fbox{\color{red}\checkmark} }}
+
+%% macros
+\newcommand{\reals}{\mathbb{R}}
+\newcommand{\term}[1]{{\bfseries\slshape #1}}
+\newcommand{\Ker}{{\text{Ker}\,}}
+\newcommand{\Range}{{\text{Range}\,}}
+\newcommand{\diag}{{\text{diag}}}
+\newcommand{\alg}{{\text{alg}}}
+\newcommand{\geom}{{\text{geom}}}
+\newcommand{\norm}[1]{\left\|#1\right\|}
+\newcommand{\abs}[1]{\left|#1\right|}
+\newcommand{\R}{{\cal R}}
+\newcommand{\G}{{\cal G}}
+\newcommand{\eps}{\varepsilon}
+\newcommand{\B}{\cal B}
+\newcommand{\Tinf}{T_\textrm{inf}}
+\newcommand{\Shat}{{\hat{S}}}
+\newcommand{\Ihat}{{\hat{I}}}
+\newcommand{\ie}{\emph{i.e., }}
+\newcommand{\eg}{\emph{e.g., }}
+\newcommand{\Rlogo}{\protect\includegraphics[height=2ex,keepaspectratio]{images/Rlogo.png}\xspace}
+\newcommand{\XPPAUT}{\texttt{XPPAUT}\xspace}
+\newcommand{\etal}{\textit{et al}.\xspace}
+\newcommand\emphblue[1]{\emph{\color{blue}#1}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% from feverpreamble.tex %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{amssymb,latexsym,amsmath,setspace}
+%%\usepackage[colorlinks,linkcolor=blue]{hyperref}
+\usepackage[colorlinks=true,allcolors=blue]{hyperref}
+%%\usepackage[colorlinks]{hyperref}
+\usepackage{xspace}
+\usepackage{graphics,graphicx}
+\usepackage{subfigure}
+\usepackage{lineno}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}  %% for texi2dvi ~ bug
+\usepackage[normalem]{ulem}
+\usepackage{tikz} % http://www.texample.net/tikz/examples/tikzdevice-demo/
+  % N.B. version 0.6.3 of tikzDevice from Rforge is required!!
+%% improve figure caption typsetting:  (see ~/tex/caption.pdf for manual)
+\usepackage[footnotesize,bf]{caption}
+\usepackage{placeins} % \FloatBarrier
+
+% citation macros
+\newcommand{\citen}[1]{\cite{#1}}
+
+% comment macros
+\usepackage{color}
+\newcommand{\comment}[3]{\textcolor{#1}{\textbf{[#2: }\textit{#3}\textbf{]}}}
+\newcommand{\david}[1]{\comment{blue}{DE}{#1}}
+\newcommand{\paul}[1]{\comment{cyan}{PA}{#1}}
+\newcommand{\ben}[1]{\comment{magenta}{BB}{#1}}
+\newcommand{\needref}{{\textcolor{red}{[NEED REF]}}}
+\newcommand{\TBD}{{\textcolor{red}{{\bf TBD}}}}
+% remove comments
+%\renewcommand{\comment}[3]{\relax}
+% remove section headings
+%\def\subsubsection*#1{\relax\nobreak}
+
+% other macros
+\newcommand{\avg}[1]{{\left\langle#1\right\rangle}}
+\newcommand{\var}[1]{\textrm{var}\left(#1\right)}
+\newcommand{\sem}[1]{\textrm{sem}\left(#1\right)}
+\newcommand{\natinf}{{\mathcal I}}
+\newcommand{\find}{f_{\textrm{i}}}
+\newcommand{\fpop}{f_{\textrm{p}}}
+\newcommand{\logit}{\textrm{logit}}
+\newcommand{\sign}{\textrm{sign}}
+\newcommand{\logistic}{\textrm{logistic}}
+\def\AJE{{\it American Journal of Epidemiology\/}}
+\newcommand{\code}[1]{{\tt #1}}
+\newcommand{\magcode}[1]{{\tt\color{magenta}#1}}
+\newcommand{\redcode}[1]{{\tt\color{red}#1}}
+\newcommand{\blackcode}[1]{{\tt\color{black}#1}}
+
+%%%%%%%%%%%%%%%%%%%
+%% JOURNAL NAMES %%
+%%%%%%%%%%%%%%%%%%%
+\def\PNAS{PNAS}
+\def\JAMA{JAMA}
+\def\BMB{{\it Bulletin of Mathematical Biology\/}}
+
+% references
+\newcommand{\eref}[1]{Equation~\eqref{E:#1}}
+\newcommand{\fref}[1]{Figure~\ref{F:#1}}
+\newcommand{\tref}[1]{Table~\ref{T:#1}}
+\newcommand{\sref}[1]{\S\ref{S:#1}}
+% other macros
+\newcommand{{\Reff}}{{\mathcal{R}}_{\rm eff}}
+\newcommand{{\Sinit}}{S_{\rm init}}
+\newcommand{\supp}{Supplementary Information}
+\newcommand{\StoppedHere}{\bigskip\bigskip{\textcolor{red}{\hrule\centerline{\bfseries STOPPED HERE}\hrule}}\bigskip\bigskip}
+\newcommand{\colvec}[2]{\begin{pmatrix}#1\\#2\end{pmatrix}}
+\newcommand{\diagmat}[3]{\begin{pmatrix}#1&0&0\\0&#2&0\\0&0&#3\end{pmatrix}}
+
+\newcommand{\solution}[1]{{\hfill\break\vspace{-0.5\baselineskip}\break\color{blue}\emph{Solution: }#1}}
+\newcommand{\tr}{\text{tr}}
+
+\newcommand{\thickredline}{\bigskip{\color{red}\hrule height 5pt}\bigskip}
+
+%% for assignment 3:
+\newtheorem{theorem}{Theorem}
+\newtheorem{remark}{Remark}
+\newcommand{\openset}{{\mathcal O}}
+\newcommand{\C}{{\mathcal C}}
+
+% Journal Names
+% -------------
+% \def\MNRAS{{\it Mon.\ Not.\ R.\ astr.\ Soc.\/}}
+\def\MNRAS{{\it Monthly Notices of the Royal Astronomical Society\/}}
+% \def\ApJ{{\it Astrophys.~J.\/}}
+\def\ApJ{{\it The Astrophysical Journal\/}}
+% \def\Interface{{\it J.\ R.\ Soc.\ Lond.\/ \rm Interface}}
+\def\Interface{{\it Journal of the Royal Society of London, \rm Interface}}
+% \def\ProcA{{\it Proc.\ R.\ Soc.\ Lond.\/ \rm A}}
+\def\ProcA{{\it Proceedings of the Royal Society of London, Series\/ \rm A}}
+% \def\ProcB{{\it Proc.\ R.\ Soc.\ Lond.\/ \rm B}}
+\def\ProcB{{\it Proceedings of the Royal Society of London, Series\/ \rm B}}
+% \def\TransB{{\it Phil.\ Trans.\ R.\ Soc.\ Lond.\/ \rm B}}
+\def\TransB{{\it Philosophical Transactions of the Royal Society of London, Series\/ \rm B}}
+\def\TREE{{\it Trends in Ecology and Evolution\/}}
+% \def\JTB{{\it J.\ theor.\ Biol.\/}}
+\def\JTB{{\it Journal of Theoretical Biology\/}}
+% \def\BE{{\it Behav.\ Ecol.\/}}
+\def\BE{{\it Behavioural Ecology\/}}
+% \def\BES{{\it Behav.\ Ecol.\ Sociobiol.\/}}
+\def\BES{{\it Behavioural Ecology and Sociobiology\/}}
+% \def\BJLS{\it Biol.\ J.\ Linn.\ Soc.\/}}
+\def\BJLS{{\it Biological Journal of the Linnean Society\/}}
+\def\Nature{{\it Nature\/}}
+\def\Science{{\it Science\/}}
+\def\Lancet{{\it The Lancet\/}}
+\def\LancetID{{\it Lancet Infectious Diseases\/}}
+% \def\PNAS{{\it Proc.\ Natl.\ Acad.\ Sci.\ USA}}
+\def\PNAS{{\it PNAS -- Proceedings of the National Academy of Sciences of the
+U.S.A.}}
+\def\PLoSMed{{\it PLoS Medicine\/}}
+\def\PLoSCB{{\it PLoS Computational Biology\/}}
+\def\EID{{\it Emerging Infectious Diseases\/}}
+\def\BMB{{\it Bulletin of Mathematical Biology\/}}
+\def\AJE{{\it American Journal of Epidemiology\/}}
+\def\TPB{{\it Theoretical Population Biology\/}}
+\def\JRSS{{\it Journal of the Royal Statistical Society\/}}
+\def\JRSSB{{\it Journal of the Royal Statistical Society Series B\/}}
+\def\IRV{{\it Influenza and Other Respiratory Viruses\/}}
+\def\JAMA{{\it JAMA -- Journal of the American Medical Association\/}}
+\def\JGLR{{\it Journal of Great Lakes Research\/}}
+\def\NEJM{{\it New England Journal of Medicine\/}}
+\def\JMB{{\it Journal of Mathematical Biology\/}}
+\def\Interface{{\it Journal of the Royal Society Interface\/}}
+\def\THEE{{\it Theoretical Ecology\/}}
+\def\Annals{{\it Annals of Internal Medicine\/}}
+\def\PRL{{\it Physical Review Letters\/}}
+\def\PRX{{\it Physical Review X\/}}
+\def\NAMS{{\it Notices of the American Mathematical Society\/}}
+
+%% underline with smash through:
+\newcommand*{\undersmash}[1]{\underline{\smash{#1}}}
+
+%% referring to TeX macros
+\newcommand\ttbackslash{{\tt\char`\\}}
+\newcommand{\macro}[1]{{\tt\ttbackslash#1}}
