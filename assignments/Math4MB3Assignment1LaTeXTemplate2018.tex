@@ -1,0 +1,146 @@
+\documentclass[12pt]{article}
+
+\input{4mbapreamble}
+\input{4mbaq} % questions
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% FANCY HEADER AND FOOTER STUFF %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{fancyhdr,lastpage}
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer parameters
+%%%\lhead{Student Name: \theblank{4cm}}
+%%%\chead{}
+%%%\rhead{Student Number: \theblank{3cm}}
+%%%\lfoot{\small\bfseries\ifnum\thepage<\pageref{LastPage}{CONTINUED\\on next page}\else{LAST PAGE}\fi}
+\lfoot{}
+\cfoot{{\small\bfseries Page \thepage\ of \pageref{LastPage}}}
+\rfoot{}
+\renewcommand\headrulewidth{0pt} % Removes funny header line
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{center}
+{\bfseries Mathematics 4MB3/6MB3 Mathematical Biology\\
+\smallskip
+2018 ASSIGNMENT {\color{blue}1}}\\
+\medskip
+\underline{\emph{Group Name}}: \texttt{{\color{blue}The Beatles}}\\
+\medskip
+\underline{\emph{Group Members}}: {\color{blue}John Lennon, Paul McCartney, George Harrison, Ringo Starr}
+\end{center}
+
+\section{Analysis of the SI model}
+
+\SIanalIntro
+\begin{enumerate}[(a)]
+\item \SIanalQa
+  
+  {\color{blue}
+    \begin{proof}
+      {\color{magenta}\dots beautifully clear and concise text to be inserted here\dots}
+      When referring to equation~\eqref{E:SI} make sure to use ~\verb|equation~\eqref{E:SI}|~ in your source file so that you obtain a hyperlinked reference that is automatically numbered correctly.
+    \end{proof}
+  }
+  
+\item \SIanalQb
+  \begin{enumerate}[(i)]
+  \item \SIanalQbi
+    
+    {\color{blue}
+      \begin{proof}
+        {\color{magenta}\dots beautifully clear and concise text to be inserted here\dots}
+        Since an exactly solution is requested, there will no doubt be an equation of the form
+        \begin{equation}
+          I(t) = \cdots \text{blah blah blah} \cdots ,
+        \end{equation}
+        which will be extremely enlightening.
+      \end{proof}
+    }
+    
+  \item \SIanalQbii
+    
+    {\color{blue}
+      \begin{proof}
+        {\color{magenta}\dots beautifully clear and concise text to be inserted here\dots}
+      \end{proof}
+    }
+    
+  \end{enumerate}
+\end{enumerate}
+
+\section{Analysis of the basic SIR  model}
+
+\basicSIRanalIntro
+\begin{enumerate}[(a)]
+\item \basicSIRanalQa
+
+{\color{blue}
+\begin{proof}[Solution]
+{\color{magenta}\dots beautifully clear and concise text to be inserted here\dots}
+\end{proof}
+}
+
+\item \basicSIRanalQb
+  \begin{enumerate}[(i)]
+  \item \basicSIRanalQbi
+
+{\color{blue}
+\begin{proof}[Solution]
+{\color{magenta}\dots beautifully clear and concise text to be inserted here\dots}
+\end{proof}
+}
+
+ \item \basicSIRanalQbii
+
+{\color{blue}
+\begin{proof}[Solution]
+{\color{magenta}\dots beautifully clear and concise text to be inserted here\dots}
+\end{proof}
+}
+
+  \item \basicSIRanalQbiii
+  \item \basicSIRanalQbiv
+  \end{enumerate}
+\item \basicSIRanalQc
+
+{\color{blue}
+\begin{proof}[Answers]
+{\color{magenta}\dots beautifully clear and concise text to be inserted here\dots}
+Since no numerical analysis or graphics were requested, there is no need to use \Rlogo to answer these questions.  Note, incidentally, that the \verb|\Rlogo| command that produces \Rlogo simply includes the image file \texttt{images/Rlogo.pdf} and scales it appropriately for text within a paragraph.  If we really loved that logo and wanted to display as we would a figure, we easily could\dots
+\end{proof}
+}
+\begin{center}
+\scalebox{3}{
+\includegraphics{images/Rlogo.pdf}
+}
+\end{center}
+
+\item \basicSIRanalQd
+
+{\color{blue}
+\begin{proof}[Solution]
+{\color{magenta}\dots beautifully clear and concise text to be inserted here\dots}
+\end{proof}
+}
+
+\end{enumerate}
+
+\newpage
+\section*{Notes on Lyapunov functions}\hypertarget{NotesLyapFuns}{}
+
+\NotesOnLyapunovFunctions
+
+\bibliographystyle{vancouver}
+\bibliography{4mba1_2018}
+
+\bigskip
+
+\centerline{\bf--- END OF ASSIGNMENT ---}
+
+\bigskip
+Compile time for this document:
+\today\ @ \thistime
+
+\end{document}
