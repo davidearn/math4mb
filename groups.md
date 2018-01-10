@@ -1,6 +1,8 @@
 # Groups
 
-## The Catcher in the Pi
+__These groups are tentative until all groups have been formed.__
+
+## The Catcher in the π
 
 - William Bell
 - Emma Holmes
@@ -9,7 +11,7 @@
 
 ## The πrates
 
+- Vanessa Bierling
+- Ahmad Mahmood
 - Megan Hartwell
 - Courtney Mulholland
-- Ahmad Mahmood
-- Vanessa Bierling
