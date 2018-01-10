@@ -4,6 +4,8 @@
 
 [Lectures](lectures/LectureSchedule.md)
 
+[Groups](groups.md)
+
 [Surveys](surveys.md)
 
 [Software](software.md)
