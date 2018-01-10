@@ -15,3 +15,5 @@ __These groups are tentative until all groups have been formed.__
 - Ahmad Mahmood
 - Megan Hartwell
 - Courtney Mulholland
+
+[Main page for this course](.)
