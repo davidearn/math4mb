@@ -16,4 +16,11 @@ __These groups are tentative until all groups have been formed.__
 - Megan Hartwell
 - Courtney Mulholland
 
+## The Infective Collective
+
+- Aurora Basinski-Ferris
+- Michael Chong
+- Daniel Park
+- Daniel Presta
+
 [Main page for this course](.)
