@@ -8,5 +8,6 @@
 |---|---|------|-------|----------------|
 | 1 | [01](4mbl01_2018.pdf) | Mon 8 Jan 2018 | Epidemic Modelling Intro | [Course information](../handouts/4mbinfo_2018.pdf) |
 |  | [02](4mbl02_2018.pdf) | Wed 10 Jan 2018 | SI Model |  |
+|  | [03](4mbl03_2018.pdf) | Fri 12 Jan 2018 | SIR Model |  |
 
 [Main page for this course](https://davidearn.github.io/math4mb/)
