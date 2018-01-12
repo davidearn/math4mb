@@ -1,7 +1,5 @@
 # Groups
 
-__These groups are tentative until all groups have been formed.__
-
 ## The Catcher in the π
 
 - William Bell
@@ -11,9 +9,10 @@ __These groups are tentative until all groups have been formed.__
 
 ## The πrates
 
-- (Vanessa Bierling)
 - Ahmad Mahmood
+- Adeyemi Fakorede
 - Megan Hartwell
+- Bradley Montgomery
 - Courtney Mulholland
 
 ## The Infective Collective
@@ -29,10 +28,5 @@ __These groups are tentative until all groups have been formed.__
 - Alexei Kuzmin
 - Claudia Tugulun
 - Roger Zhang
-
-## _No group yet_
-
-- Adeyemi Fakorede
-- Bradley Montgomery
 
 [Main page for this course](.)
