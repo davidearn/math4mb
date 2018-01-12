@@ -11,7 +11,7 @@ __These groups are tentative until all groups have been formed.__
 
 ## The πrates
 
-- Vanessa Bierling
+- (Vanessa Bierling)
 - Ahmad Mahmood
 - Megan Hartwell
 - Courtney Mulholland
@@ -22,5 +22,17 @@ __These groups are tentative until all groups have been formed.__
 - Michael Chong
 - Daniel Park
 - Daniel Presta
+
+## The Four Humours
+
+- Alexandra Bushby
+- Alexei Kuzmin
+- Claudia Tugulun
+- Roger Zhang
+
+## _No group yet_
+
+- Adeyemi Fakorede
+- Bradley Montgomery
 
 [Main page for this course](.)
