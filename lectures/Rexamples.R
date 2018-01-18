@@ -61,21 +61,22 @@ text(x=0.8, y=0.1, "R is FUN!", font=4, col="magenta")
 ###############################################
 
 ## define the function I(S) derived in class:
-IofS <- function(S0,I0,R0=2,S) { 
-                     # R0 is reproduction number, not initial removed!
-  return(I0 - (S-S0) + (1/R0)*log(S/S0))
+IofS <- function(Si,Ii,R0=2,S) { 
+  ## Si,Ii are initial conditions
+  ## R0 is reproduction number, not initial removed!
+  return(Ii - (S-Si) + (1/R0)*log(S/Si))
 }
 
 ## set basic reproduction number:
 R0 <- 4
 ## set initial conditions:
-I0 <- 0.0001
-S0 <- 1-I0
+Ii <- 0.0001
+Si <- 1-Ii
 ## choose values of S at which to evaluate the function I(S):
-Svals <- seq(0,S0,length=100)
+Svals <- seq(0,Si,length=100)
 ## plot I(S):
 mycol <- "red"
-plot(Svals,IofS(S0,I0,R0,Svals), typ="l", lwd=2, col=mycol, 
+plot(Svals,IofS(Si,Ii,R0,Svals), typ="l", lwd=2, col=mycol, 
      xlab="S", ylab="I", bty="L", xaxs="i", yaxs="i",
      xlim=c(0,1),ylim=c(0,1))
 
@@ -138,38 +139,38 @@ text(x=1/R0, y=0.45, pos=4, col="black", #"darkgrey",
      "$S=\\frac{\\gamma}{\\beta}=\\frac{1}{{\\mathcal R}_0}$", cex=mycex)
 
 ## choose set of initial proportions susceptible
-I0 <- 1e-4
-S0vals <- c(0.5,0.6,0.7,0.85,0.95)
+Ii <- 1e-4
+Sivals <- c(0.5,0.6,0.7,0.85,0.95)
 ## set resolution of curves we'll draw
 nSvals <- 100
-## draw solution curve for each S0 value
-for (S0 in S0vals) {
-  Svals <- seq(0,S0,length=nSvals)
-  lines(Svals,IofS(S0,I0,R0,Svals),
+## draw solution curve for each Si value
+for (Si in Sivals) {
+  Svals <- seq(0,Si,length=nSvals)
+  lines(Svals,IofS(Si,Ii,R0,Svals),
       lwd=4, col=mycol)
   ## add arrowhead
   deltax <- -0.001
   x0 <- Svals[trunc(nSvals*2/3)] # pick point 2/3 of the way along solution
   x1 <- x0+deltax
-  y0 <- IofS(S0,I0,R0,x0)
-  y1 <- IofS(S0,I0,R0,x1)
+  y0 <- IofS(Si,Ii,R0,x0)
+  y1 <- IofS(Si,Ii,R0,x1)
   slope <- (y1-y0)/(x1-x0)
   ##arrows(x0,y0,x1,y1, length=0.15, lwd=4)
   library("shape") # for Arrows(), which yields 'stealth' arrowheads
   Arrows(x0,y0,x1,y1, lwd=2, col=mycol)
 }
 ## indicate that the starting points are unstable equilibria
-points(x=S0vals, y=rep(I0,length(S0vals)),
+points(x=Sivals, y=rep(Ii,length(Sivals)),
        col=mycol, pch=21, bg="white", xpd=TRUE, cex=1.5, lwd=2)
 
 ## indicate that the ending points are stable equilibria
-f <- function(s) {(1/R0)*log(s/S0) - (s-S0)}
-Sinfvals <- rep(0,length(S0vals)) # S_infinity values
-for (i in 1:length(S0vals)) {
-  S0 <- S0vals[i]
-  Sinfvals[i] <- uniroot(f,c(0,0.9*S0))$root
+f <- function(s) {(1/R0)*log(s/Si) - (s-Si)}
+Sinfvals <- rep(0,length(Sivals)) # S_infinity values
+for (i in 1:length(Sivals)) {
+  Si <- Sivals[i]
+  Sinfvals[i] <- uniroot(f,c(0,0.9*Si))$root
 }
-points(x=Sinfvals, y=rep(I0,length(S0vals)),
+points(x=Sinfvals, y=rep(Ii,length(Sivals)),
        col=mycol, pch=21, bg="black", xpd=TRUE, cex=1.5)
 
 ## if the graphics device is a file (pdf or tikz), you must close the file
@@ -261,7 +262,7 @@ for (I in Ivals) {
   Arrows(x0,y0,x1,y1, lwd=2, col=mycol)
   points(x0,rep(y0,length(x0)), col=mycol, pch=16, cex=0.5)
 }
-## indicate unstable equilibria for S0>1/R0 and stable otherwise
+## indicate unstable equilibria for Si>1/R0 and stable otherwise
 npt <- 16
 points(x=seq(1/R0 + (1-(1/R0))*(1/npt),1,length=npt), y=rep(0,npt),
        col=mycol, pch=21, bg="white", xpd=TRUE, cex=1.3, lwd=2)
