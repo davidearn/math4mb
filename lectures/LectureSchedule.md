@@ -12,5 +12,6 @@
 | 2 | [04](4mbl04_2018.pdf) | Mon 15 Jan 2018 | SIR Model II |  |
 |  | [05](4mbl05_2018.pdf) | Wed 17 Jan 2018 | LaTeX Intro | [LaTeX examples](latexexamples.zip) |
 |  | [06](4mbl06_2018.pdf) | Fri 19 Jan 2018 | R Intro | [R examples](Rexamples.R) |
+|  | [07](4mbl07_2018.pdf) | Mon 22 Jan 2018 | R Intro II | [R examples](Rexamples.R) |
 
 [Main page for this course](https://davidearn.github.io/math4mb/)
