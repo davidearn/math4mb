@@ -84,7 +84,7 @@ Emacs is a very powerful editor and can be used for - among other things - R, La
 * make sure to run bin/addpm once in order to configure emacs and create an icon under the Start menu
 
 ### OS X
-Aquamacs(http://aquamacs.org) is a good graphical version of Emacs for OS X, but you can just also run the command ```emacs``` from a Terminal or XQuartz window.
+Aquamacs (http://aquamacs.org) is a good graphical version of Emacs for OS X, but you can just also run the command ```emacs``` from a Terminal or XQuartz window.
 
 # Spell-checkers and word counters that understand LaTeX
 
