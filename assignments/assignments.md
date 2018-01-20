@@ -12,7 +12,7 @@
 ### Assignment 2
 
 [Assignment 2,  __DUE: Monday 5 February 2018 at 11:30am__](4mba2_2018.pdf)
-- [LaTeX template for Assignment 1](Math4MB3Assignment2LaTeXTemplate2018.tex)
+- [LaTeX template for Assignment 2](Math4MB3Assignment2LaTeXTemplate2018.tex)
 - [LaTeX questions for Assignment 2 (do _not_ edit)](4mba2q.tex)
 
 [Main page for this course](..)
