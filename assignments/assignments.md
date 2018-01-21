@@ -6,6 +6,7 @@
 - [LaTeX template for Assignment 1](Math4MB3Assignment1LaTeXTemplate2018.tex)
 - [LaTeX questions for Assignment 1 (do _not_ edit)](4mbaq.tex)
 - [LaTeX preamble file for 4MB3 assignments](4mbapreamble.tex)
+- [BibTeX library file for Assignment 1](4mba1_2018.bib)
 - [R logo as a pdf image](Rlogo.pdf)
 - LaTeX novices might appreciate the [DeTeXify site](http://detexify.kirelabs.org/classify.html)
 
