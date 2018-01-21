@@ -10,7 +10,6 @@
 ## The πrates
 
 - Ahmad Mahmood
-- Adeyemi Fakorede
 - Megan Hartwell
 - Bradley Montgomery
 - Courtney Mulholland
