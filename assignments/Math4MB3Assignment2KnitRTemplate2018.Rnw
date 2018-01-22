@@ -1,0 +1,202 @@
+\documentclass[12pt]{article}
+
+\input{4mbapreamble}
+\input{4mba2q}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% FANCY HEADER AND FOOTER STUFF %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{fancyhdr,lastpage}
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer parameters
+%%%\lhead{Student Name: \theblank{4cm}}
+%%%\chead{}
+%%%\rhead{Student Number: \theblank{3cm}}
+%%%\lfoot{\small\bfseries\ifnum\thepage<\pageref{LastPage}{CONTINUED\\on next page}\else{LAST PAGE}\fi}
+\lfoot{}
+\cfoot{{\small\bfseries Page \thepage\ of \pageref{LastPage}}}
+\rfoot{}
+\renewcommand\headrulewidth{0pt} % Removes funny header line
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{center}
+{\bf Mathematics 4MB3/6MB3 Mathematical Biology\\
+\smallskip
+2018 ASSIGNMENT 2}\\
+\medskip
+\underline{\emph{Group Name}}: \texttt{{\color{blue}Cream}}\\
+\medskip
+\underline{\emph{Group Members}}: {\color{blue}Eric Clapton, Ginger Baker, Jack Bruce}
+\end{center}
+
+\bigskip
+\noindent
+This assignment was due in class on \textcolor{red}{\bf Monday 5 February 2018 at 11:30am}.
+
+\section{Plot P\&I mortality in Philadelphia in 1918}
+
+\begin{enumerate}[(a)]
+
+\item \PhilaDataReceived
+
+\item \PhilaDataReadA
+<<read.phila.data>>=
+datafile <- "pim_us_phila_city_1918_dy.csv"
+philadata <- read.csv(datafile)
+philadata$date <- as.Date(philadata$date)
+@ 
+\PhilaDataReadB
+
+\item \PhilaDataReproduceA
+
+  {\color{blue} \begin{proof}[Solution]
+  {\color{magenta}\dots beautiful graph here\dots\ and nicely commented code that produces it, either in a separate \texttt{.R} file or preceding the graph if this is a \texttt{knitr} script\dots}
+  \end{proof}
+  }
+
+\PhilaDataReproduceB
+
+\end{enumerate}
+
+\section{Estimate $\R_0$ from the Philadelphia P\&I time series}
+
+\begin{enumerate}[(a)]
+
+\item \EstimateRna
+
+ {\color{blue} \begin{proof}[Solution]
+ {\color{magenta}\dots beautifully clear and concise text to be inserted here\dots}
+ \end{proof}
+ }
+
+\item \EstimateRnb
+
+  {\color{blue} \begin{proof}[Solution]
+  {\color{magenta}\dots beautifully clear text and plot(s) here \dots\ interspersed with \Rlogo code if this is a \texttt{knitr} script}
+  \end{proof}
+  }
+  
+\item \EstimateRnc
+
+  {\color{blue} \begin{proof}[Solution]
+  {\color{magenta}\dots beautifully clear text here \dots\ including some embedded \Rlogo code to estimate $\R_0$ if this is a \texttt{knitr} script}
+  \end{proof}
+  }
+
+\end{enumerate}
+
+\section{Fit the basic SIR model to the Philadelphia P\&I time series}
+
+\begin{enumerate}[(a)]
+
+\item \FitSIRa
+
+\item \FitSIRbIntro
+\begin{itemize}
+    \item Your code will first need to load the \code{deSolve} package:
+<<load.deSolve,message=FALSE>>=
+library("deSolve")
+@       
+    \item \FitSIRbii
+<<plot.sine,fig.height=4>>=
+plot.sine <- function( xmin=0, xmax=2*pi ) {
+  x <- seq(xmin,xmax,length=100)
+  plot(x, sin(x), typ="l")
+  grid() # add a light grey grid
+}
+plot.sine(xmax=4*pi)
+@ 
+  \item \FitSIRbiiiA
+<<SI.vec.fld>>=
+## Vector Field for SI model
+SI.vector.field <- function(t, vars, parms=c(beta=2,gamma=1)) {
+  with(as.list(c(parms, vars)), {
+    dx <- -beta*x*y # dS/dt
+    dy <- beta*x*y  # dI/dt
+    vec.fld <- c(dx=dx, dy=dy)
+    return(list(vec.fld)) # ode() requires a list
+  })
+}
+@ 
+
+\FitSIRbiiiB
+<<draw.soln,tidy=FALSE>>=
+## Draw solution
+draw.soln <- function(ic=c(x=1,y=0), tmax=1, 
+                      times=seq(0,tmax,by=tmax/500), 
+                      func, parms, ... ) {
+  soln <- ode(ic, times, func, parms)
+  lines(times, soln[,"y"], col="blue", lwd=3, ... )
+}
+@ 
+\FitSIRbiiiC
+<<eval=FALSE>>=
+  soln <- ode(times=times, func=func, parms=parms, y=ic)
+@ 
+
+We can now use our \code{draw.soln()} function to plot a few solutions of the SI model.
+
+<<plot.SI.model,tidy=FALSE,fig.height=3.5,fig.width=6>>=
+## Plot solutions of the SI model
+tmax <- 10 # end time for numerical integration of the ODE
+## draw box for plot:
+plot(0,0,xlim=c(0,tmax),ylim=c(0,1),
+     type="n",xlab="Time (t)",ylab="Prevalence (I)",las=1)
+## initial conditions:
+I0 <- 0.001
+S0 <- 1 - I0
+## draw solutions for several values of parameter beta:
+betavals <- c(1.5,2,2.5)
+for (i in 1:length(betavals)) {
+  draw.soln(ic=c(x=S0,y=I0), tmax=tmax,
+            func=SI.vector.field,
+            parms=c(beta=betavals[i],gamma=1),
+            lty=i # use a different line style for each solution
+            )
+}
+@ 
+
+
+  \end{itemize}
+ 
+ {\color{blue} \begin{proof}[Solution]
+ {\color{magenta}\dots If this is a \texttt{knitr} script then your code should be displayed here.  Otherwise, you should state here the name of the file where the \Rlogo code is, and the names of any functions you defined\dots}
+ \end{proof}
+ }
+
+\item \FitSIRc
+
+  {\color{blue} \begin{proof}[Solution]
+  {\color{magenta}\dots beautifully clear text and plot(s) here \dots\ preceded by \Rlogo code if this is a \texttt{knitr} script}
+  \end{proof}
+  }
+  
+\item \FitSIRd
+
+  {\color{blue} \begin{proof}[Solution]
+  {\color{magenta}\dots beautifully clear text and plot(s) here \dots\ interspersed with \Rlogo code if this is a \texttt{knitr} script}
+  \end{proof}
+  }
+ 
+\end{enumerate}
+
+\section{Executive summary for the Public Health Agency}
+
+\ExecSumm
+
+  {\color{blue} \begin{proof}[Solution]
+  {\color{magenta}\dots beautifully clear executive summary here, on its own page\dots}
+  \end{proof}
+  }
+
+\bigskip
+
+\centerline{\bf--- END OF ASSIGNMENT ---}
+
+\bigskip
+Compile time for this document:
+\today\ @ \thistime
+
+\end{document}

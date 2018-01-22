@@ -1,0 +1,120 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% QUESTIONS FOR MATH 4MB/6MB ASSIGNMENT 2.          %%
+%% The question texts are used in several documents: %%
+%% assignment, solutions, template,                  %%
+%% hence it is better to load them from this file.   %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% \section{Plot P\&I mortality in Philadelphia in 1918}
+
+%%% THIS WOULD BE BETTER IF IIDDA WEREN'T DOWN AT THE MOMENT:
+%\item Download the data file from the International Infectious Disease Data Archive (IIDDA).  \emph{Note:} IIDDA is currently accessible only from campus or via a VPN connection.
+%\begin{enumerate}[(i)]
+%  \item Go to \url{http://iidda-dev.mcmaster.ca}
+%  \item Request access.
+%  \item After access has been granted, login and find the data file.  You can either navitage via the Mortality category or search for Philadelphia.
+%\end{enumerate}
+
+\newcommand{\PhilaDataReceived}{%
+Confirm that you have received this data file by e-mail:
+$$\texttt{pim\_us\_phila\_city\_1918\_dy.csv}$$
+This plain text comma-separated-value file can be examined (if you wish) using any plain text editor, such as {\tt Emacs}.
+}
+
+\newcommand{\PhilaDataReadA}{%
+Read the data into a data frame in \Rlogo, using the \code{read.csv()} function.  For example, the following chunk of \Rlogo code should work:
+}
+
+\newcommand{\PhilaDataReadB}{%
+The purpose of the last line of code above is to ensure that \Rlogo encodes character strings such as \texttt{"1918-10-15"} as dates.
+}
+
+\newcommand{\PhilaDataReproduceA}{%
+Reproduce the Philadelphia 1918 P\&I plot:
+}
+
+\newcommand{\PhilaDataReproduceB}{%
+You'll need to use functions such as \code{plot()}, \code{points()} and \code{lines()}.  For a comprehensive list of graphics parameters accepted by these functions, enter {\tt ?par} into the Console pane in {\tt RStudio}.  There are multiple ways to produce a graph exactly like the above, but the following steps work:
+\begin{itemize}
+  \item Use \code{plot()} to draw the box and basic annotation and the grey line.  Suppress labels when doing this (\emph{e.g.,} \code{xlab=""}).  The box type is controlled by the \code{bty} option and the orientation of annotation is controlled by the \code{las} option.
+  \item Use \code{points()} to draw the heavy red dots with black borders.  The most elegant way to do this is to set the point character type to 21 (\code{pch=21}) and the point background colour to red (\code{bg="red"}).  Alternatively, you can use \code{points()} twice (first to draw the red dots and then to draw the black circles around them).
+  \item Use \code{mtext()} to add the $x$ and $y$ axis labels in the margins of the plot.
+\end{itemize}
+}
+
+%% \section{Estimate $\R_0$ from the Philadelphia P\&I time series}
+
+\newcommand{\EstimateRna}{%
+The observed mortality time series $M(t)$ is certainly not equal to the prevalence $I(t)$ that appears in the SIR model.  Suppose, however, that $I(t) = \eta M(t-\tau)$ for all time (where $\eta$ and $\tau$ are constants), \emph{i.e.,} that the mortality curve is exactly a scaled and translated version of the prevalence curve.  Prove that if both $I$ and $M$ are growing exactly exponentially over some time period then their exponential rates are identical.  Thus, if we compare them during the ``exponential phase'' on a logarithmic scale, then both curves will be perfectly straight with exactly the same slope.
+}
+
+\newcommand{\EstimateRnb}{%
+Fit a straight line to the part of the Philadelphia 1918 mortality time series that looks straight on a logarithmic scale (and show your result in a plot).  Once you get the hang of it, the easiest way to do this is to use the \code{lm()} function in \Rlogo (lm stands for linear model).  Note that the simplest way to draw a straight line with given slope and intercept is with the \code{abline()} function.  If you find \code{lm()} counter-intutive to understand then experiment with \code{abline()} until your eyes tell you that you have discovered a line that provides a good fit.
+}
+
+\newcommand{\EstimateRnc}{%
+How is the slope of your fitted line related to the parameters of the SIR model?  (\emph{Hint:} When $I$ is small, $S\simeq1$.) Why do you need an independent measure of the mean infectious period to estimate $\R_0$?  If the mean infectious period is 4 days, what is your estimate of $\R_0$?
+}
+
+%% \section{Fit the basic SIR model to the Philadelphia P\&I time series}
+
+\newcommand{\FitSIRa}{%
+Install the \code{"deSolve"} package.  This
+    is done by typing the following command in the Console pane of
+    {\tt RStudio}:
+    $$\text{\code{install.packages("deSolve")}}$$
+You will then be prompted to choose a mirror site from which to download the package.  It doesn't matter which mirror you choose, but choosing a site in Ontario might save a fraction of a second. \emph{Note:} This is a one-time operation.  You do not want an \code{install.packages()} command inside your solutions code.
+}
+
+\newcommand{\FitSIRbIntro}{%
+Write an \Rlogo function that plots the solution $I(t)$ of the SIR model for given parameter values ($\R_0$ and $1/\gamma$) and given initial conditions ($S_0,I_0$).  Use the {\tt ode()} function in the {\tt deSolve} package.  A few hints:
+}
+
+\newcommand{\FitSIRbii}{%
+As an example of defining a function (without getting involved with a differential equation), here is a code chunk that defines a function to plot a sine curve, and then executes the function.  Note that the default min and max $x$ values are set in the parameter list of the function definition, but the max $x$ value is changed when the function is executed:
+}
+
+\long\def\FitSIRbiiiA{%
+Here's another example.  This time we first define the vector field for a differential equation.  We then use this function inside another function that plots the solution of the associated differential equation.  To understand the construction, you can, as usual, study the help page for the calling function (\code{?ode} in this case), but the most important issues are the following.
+
+One of the arguments of the \code{ode()} function is the function that evaluates the vector field at the current time.  To avoid confusion, choose the arguments of your vector field function to be \code{t}, \code{vars} and \code{parms} (in that order):
+\begin{center}
+\begin{tabular}{r p{4.25in}}
+     \code{t} & The current time, which will be used within the vector field function if the system is non-autonomous. \\
+     \code{vars} & A named vector of the variables in the system (\eg $S$, $I$).  The variables, as named vector passed to this function, are used in the code that defines the vector field within the function. \\
+     \code{parms} & A named vector of the parameters of the system (\eg $\beta$, $\gamma$).  It is convenient---but not necessary---to specify default values for the parameters.
+\end{tabular}
+\end{center}
+
+It is strongly recommended that you follow exactly the style below when defining vector fields for differential equations that you wish to solve with the \code{ode()} function.  In particular, the construction ``\code{with(as.list(c(parms,vars)), {...})}'' makes the variables and parameters visible within the section of code between the braces (\code{\{...\}}) without having to refer to the vectors or lists in which they are stored.  For example, the code would be much harder to read if each instance of \code{x} were replaced by \code{vars\$x} and each instance of \code{beta} were replaced by \code{parms\$beta}; this issue becomes extremely important for complicated vector fields.
+}
+
+\newcommand{\FitSIRbiiiB}{%
+The following function plots a single solution of the ODE for a given initial condition (\code{ic}), integration time (\code{tmax}) and times at which the state is to be returned (\code{times}).  The vector field function is passed as the \code{func} argument and the parameter vector is passed as the \code{parms} argument.  If further arguments are given, they are passed to the \code{lines()} function that draws the solution.
+}
+
+\newcommand{\FitSIRbiiiC}{%
+Note here that the call to the \code{ode()} function gives the arguments in the default order so they are interpretted correctly.  If we wished to write the arguments in a different order then we would have to be explicit about which argument is which.  For example, if we wanted to list the initial conditions last for some deep reason then we would have to write:
+}
+
+\newcommand{\FitSIRc}{%
+For $I_0=10^{-3}$ and $S_0=1-I_0$, plot the solutions of the SIR model assuming $1/\gamma=4$ days and $\R_0\in\{1.2,1.5,1.8,2,3,4\}$.  Use the \code{legend()} command to make a legend on the plot that shows which curves correspond to which values of $\R_0$.
+}
+
+\newcommand{\FitSIRd}{%
+By trial and error, find values of $\R_0$ and $\gamma$ that yield a solution of the SIR model that fits the Philadelphia P\&I times series reasonably well.  You can assess the quality of fit using the Euclidean distance between the model solution and the data.  (\emph{Note:}  The trial and error approach is a valuable exercise, but not a suggestion of a method you would really use in practice.  We'll discuss better methods for fitting ODE models to data later.)
+}
+
+%% \section{Executive summary for the Public Health Agency}
+
+\long\def\ExecSumm{%
+The Public Health Agency of Canada (PHAC) is revising their pandemic plan and has asked your group to summarize what you learned from analyzing the 1918 Philadelphia P\&I time series.  Besides explaining what inferences you feel you can make from your analysis so far, PHAC wants to know what you would investigate if they were to fund you to continue your work full time for a month.  They want a maximum of one page from your group.
+
+Incidentally, you might be interested to know that rumour has it that all of the members of the pandemic planning committee took Math 2C03 at McMaster University between 1980 and 2003, but they all failed.  Also, when the chair of the committee was recently asked ``What is a differential equation?'' he apparently bent over and vomited (it is hard to know quite what to make of this given that PHAC was investigating a norovirus outbreak at the time).
+
+\smallskip
+\noindent{\em\underline{Note}: When submitting your assignment solution, it is imperative that the one-page executive summary be printed on its own page.  To start a new page in \LaTeX, use the \macro{newpage} command.  Also, as usual, your summary should be in 12 point font.  Don't try to cram in as much as possible.  Make that page as clear and concise as you can, so that a public health planner can absorb its content quickly and easily.}
+}
+
+%%\bibliographystyle{vancouver}
+%%\bibliography{4mba2_2018}
