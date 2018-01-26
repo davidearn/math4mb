@@ -15,5 +15,6 @@
 | 3 | [07](4mbl07_2018.pdf) | Mon 22 Jan 2018 | R Intro II | [R examples](Rexamples.R) |
 |  | [08](4mbl08_2018.pdf) | Wed 24 Jan 2018 | Epidemic Data |  |
 |  | [09](4mbl09_2018.pdf) | Fri 26 Jan 2018 | Epidemic Data II |  |
+| 4 | [10](4mbl10_2018.pdf) | Mon 29 Jan 2018 | Epidemic Data III |  |
 
 [Main page for this course](https://davidearn.github.io/math4mb/)
