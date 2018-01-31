@@ -16,6 +16,6 @@
 |  | [08](4mbl08_2018.pdf) | Wed 24 Jan 2018 | Epidemic Data |  |
 |  | [09](4mbl09_2018.pdf) | Fri 26 Jan 2018 | Epidemic Data II |  |
 | 4 | [10](4mbl10_2018.pdf) | Mon 29 Jan 2018 | Epidemic Data III |  |
-|  | [10](4mbl10_2018.pdf) | Wed 31 Jan 2018 | Epidemic Data Tools |  |
+|  | [11](4mbl11_2018.pdf) | Wed 31 Jan 2018 | Epidemic Data Tools |  |
 
 [Main page for this course](https://davidearn.github.io/math4mb/)
