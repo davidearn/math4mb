@@ -8,4 +8,6 @@ _It is best to write your responses in a text file on your computer, and copy an
 
 - [Optional respiratory illness survey](https://surveys.mcmaster.ca/limesurvey2/index.php/893454)
 
+- [Contributions survey for Assignment 2](https://surveys.mcmaster.ca/limesurvey2/index.php/657773)
+
 [Main page](.)
