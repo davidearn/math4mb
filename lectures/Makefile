@@ -14,7 +14,8 @@ LectureSchedule.md: LectureSchedule.csv LectureScheduleCSVtoMD.R
 clean:
 	rm -f unnamed*
 	rm -f *.{aux,tikz,out,log,blg,toc,tex-e}
-fresh: clean
+veryclean: clean
 	rm -f *.Rout
 	rm -f *.{nav,snm,vrb} *-tikzDictionary *-concordance.tex
+fresh: veryclean
 	rm -rf cache figure
