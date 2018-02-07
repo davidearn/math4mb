@@ -19,7 +19,7 @@
 ### Assignment 3
 
 [Assignment 3,  __DUE: Wednesday 28 February 2018 at 11:30am__](4mba3_2018.pdf)
-- [LaTeX questions for Assignment 3 (do _not_ edit)](4mba2q.tex)
+- [LaTeX questions for Assignment 3 (do _not_ edit)](4mba3q.tex)
 - [KnitR template for Assignment 3](Math4MB3Assignment3KnitRTemplate2018.Rnw)
 
 [Main page for this course](..)
