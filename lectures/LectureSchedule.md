@@ -18,9 +18,9 @@
 | 4 | [10](4mbl10_2018.pdf) | Mon 29 Jan 2018 | Epidemic Data III |  |
 |  | [11](4mbl11_2018.pdf) | Wed 31 Jan 2018 | Epidemic Data Tools |  |
 |  | [12](4mbl12_2018.pdf) | Fri 2 Feb 2018 | Epidemic Data Tools II |  |
-|  | [13](4mbl13_2018.pdf) | Mon 5 Feb 2018 | Mechanistic Modelling of Recurrent Epidemics |  |
+| 5 | [13](4mbl13_2018.pdf) | Mon 5 Feb 2018 | Mechanistic Modelling of Recurrent Epidemics |  |
 |  | [14](4mbl14_2018.pdf) | Wed 7 Feb 2018 | Mechanistic Modelling of Recurrent Epidemics II |  |
 |  | [15](4mbl15_2018.pdf) | Fri 9 Feb 2018 | Mechanistic Modelling of Recurrent Epidemics III |  |
-|  | [16](4mbl16_2018.pdf) | Mon 12 Feb 2018 | Mechanistic Modelling of Recurrent Epidemics IV |  |
+| 6 | [16](4mbl16_2018.pdf) | Mon 12 Feb 2018 | Mechanistic Modelling of Recurrent Epidemics IV |  |
 
 [Main page for this course](https://davidearn.github.io/math4mb/)
