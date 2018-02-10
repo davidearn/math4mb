@@ -100,6 +100,12 @@ The unix wc command can be used to count words in a plain text file.  To use it,
 ```
 where you need to insert the _filename_ of the file in question.
 
+If you have a Mac, the `texcount` command is much more helpful than the above.  The command line syntax is
+```
+  texcount filename
+```
+after which helpful information is spewed on your screen.
+
 # Tools for online collaboration on documents and code
 
 [GitHub](https://github.com/)
