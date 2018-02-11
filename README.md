@@ -12,6 +12,8 @@
 
 [Assignments](assignments/assignments.md)
 
+[Project](project/project.md)
+
 ### Information from previous years
 
 [2017 Math 4MB/6MB course wiki](http://lalashan.mcmaster.ca/theobio/4MB3/index.php/Main_Page)
