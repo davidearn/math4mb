@@ -22,5 +22,6 @@
 |  | [14](4mbl14_2018.pdf) | Wed 7 Feb 2018 | Mechanistic Modelling of Recurrent Epidemics II |  |
 |  | [15](4mbl15_2018.pdf) | Fri 9 Feb 2018 | Mechanistic Modelling of Recurrent Epidemics III |  |
 | 6 | [16](4mbl16_2018.pdf) | Mon 12 Feb 2018 | Mechanistic Modelling of Recurrent Epidemics IV |  |
+|  | [17](4mbl17_2018.pdf) | Wed 14 Feb 2018 | Mechanistic Modelling of Recurrent Epidemics V |  |
 
 [Main page for this course](https://davidearn.github.io/math4mb/)
