@@ -1,0 +1,127 @@
+\documentclass[12pt]{article}
+
+\input{4mbapreamble}
+\input{4mba4q}
+\newcommand{\BeautifulSolution}{{\color{blue}\begin{proof}{\color{magenta}\dots beautifully clear and concise text to be inserted here\dots}\end{proof}}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% FANCY HEADER AND FOOTER STUFF %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{fancyhdr,lastpage}
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer parameters
+%%%\lhead{Student Name: \theblank{4cm}}
+%%%\chead{}
+%%%\rhead{Student Number: \theblank{3cm}}
+%%%\lfoot{\small\bfseries\ifnum\thepage<\pageref{LastPage}{CONTINUED\\on next page}\else{LAST PAGE}\fi}
+\lfoot{}
+\cfoot{{\small\bfseries Page \thepage\ of \pageref{LastPage}}}
+\rfoot{}
+\renewcommand\headrulewidth{0pt} % Removes funny header line
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{center}
+{\bf Mathematics 4MB3/6MB3 Mathematical Biology\\
+\smallskip
+2016 ASSIGNMENT \textcolor{blue}{4}}\\
+\medskip
+\underline{\emph{Group Name}}: \texttt{{\color{blue}Muse}}\\
+\medskip
+\underline{\emph{Group Members}}: {\color{blue}Matt Bellamy, Chris Wolstenholme, Dominic Howard}
+\end{center}
+
+\bigskip
+\noindent
+\textcolor{blue}{This assignment was due on Wednesday 14 March 2018 at 11:30am.}
+
+\bigskip
+
+\section{Time Series analysis of Recurrent Epidemics}
+
+\begin{enumerate}[(a)]
+
+\item \TSa
+
+\begin{enumerate}[(i)]
+
+\item \TSai
+
+\BeautifulSolution
+
+\item \TSaii
+
+\BeautifulSolution
+
+\item \TSaiii
+
+<<eval=FALSE>>=
+s <- spectrum(v, plot=FALSE)
+plot( s$freq, s$spec, type="l")
+@ 
+
+\BeautifulSolution
+
+\end{enumerate}
+
+\item \TSb
+
+\BeautifulSolution
+
+\end{enumerate}
+
+\section{Stochastic Epidemic Simulations}
+
+\SEintro
+
+\begin{enumerate}[(a)]
+
+\item \SEa
+
+\BeautifulSolution
+
+\item \SEb
+
+\BeautifulSolution
+
+\end{enumerate}
+
+\section{$\R_0$ for smallpox}
+
+\Rintro
+
+\begin{enumerate}[(a)]
+
+  \item \Ra
+
+    \BeautifulSolution
+
+  \item \Rb
+
+    \BeautifulSolution
+
+  \item \Rc
+
+    \BeautifulSolution
+
+  \item \Rd
+
+    \BeautifulSolution
+
+  \item \qRe
+
+    \BeautifulSolution
+
+\end{enumerate}
+
+\smpxnathistfig
+
+\bigskip
+\centerline{\bf--- END OF ASSIGNMENT ---}
+
+\bigskip
+Compile time for this document:
+\today\ @ \thistime
+
+\end{document}
