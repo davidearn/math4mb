@@ -24,7 +24,7 @@
 
 ### Assignment 4
 
-[Assignment 4,  __DUE: Monday 12 March 2018 at 11:30am__](4mba4_2018.pdf)
+[Assignment 4,  __DUE: Wednesday 14 March 2018 at 11:30am__](4mba4_2018.pdf)
 - [LaTeX questions for Assignment 4 (do _not_ edit)](4mba4q.tex)
 - [KnitR template for Assignment 4](Math4MB3Assignment4KnitRTemplate2018.Rnw)
 
