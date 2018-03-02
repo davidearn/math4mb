@@ -25,5 +25,7 @@
 |  | [17](4mbl17_2018.pdf) | Wed 14 Feb 2018 | Mechanistic Modelling of Recurrent Epidemics V |  |
 |  | [18](4mbl18_2018.pdf) | Fri 16 Feb 2018 | $\R_0$ |  |
 | 7 | [19](4mbl19_2018.pdf) | Wed 28 Feb 2018 | Space |  |
+|  | [20](4mbl20_2018.pdf) | Fri 2 Mar 2018 | Space II |  |
+| 8 | [21](4mbl21_2018.pdf) | Mon 5 Mar 2018 | Space III |  |
 
 [Main page for this course](https://davidearn.github.io/math4mb/)
