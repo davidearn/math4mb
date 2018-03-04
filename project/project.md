@@ -4,6 +4,10 @@
 - Discuss project options with your group
 - Make a project proposal to the instructor
 
+### Project notebook
+
+- use the [Notebook template](ProjectNotebookTemplate2018.Rnw)
+
 ## Project choices
 
 ### G2: The Four Humours

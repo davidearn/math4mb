@@ -1,0 +1,105 @@
+\documentclass[12pt]{article}
+\usepackage{scrtime} % for \thistime (this package MUST be listed first!)
+\usepackage[margin=1in]{geometry}
+\usepackage{fancyhdr}
+\pagestyle{fancyplain}
+\usepackage[T1]{fontenc}
+\usepackage{tikz-cd}
+% So David can comment:
+\newcommand{\de}[1]{{\color{red}{\bfseries DE:} #1}}
+% Use the R logo when referring to R:
+\usepackage{xspace}
+\newcommand{\Rlogo}{\protect\includegraphics[height=2ex,keepaspectratio]
+{images/Rlogo.pdf}\xspace} 
+% Note: must have the R logo saved in
+%       an "images" directory
+
+<<echo=FALSE>>=
+this.year <- 2018
+date.string <- function(year,month,day) {
+  return(sprintf("%s %d %s %d",
+                 weekdays(as.Date(paste(year,month,day,sep="-")),abbreviate=FALSE),
+                 day, month.name[month], year))
+}
+@ 
+
+\rhead{\fancyplain{}{4MB3 Project Notebook \Sexpr{this.year} \hfill Paul McCartney}}
+\title{Math 4MB3 Project Notebook \Sexpr{this.year}}
+\author{Paul McCartney (The Beatles)}
+\date{\today\ @ \thistime}
+
+\begin{document}
+\maketitle
+
+\section*{\Sexpr{date.string(this.year, 3, 15)}}
+
+\textbf{Group Meeting} \\
+\emph{Approximate Duration: 1 Hour}
+
+\begin{itemize}
+\item We discussed what worked on the last album, and how we want things to go this time.
+\item John doesn't seem to appreciate that the success of the album was entirely due to my songs.
+\item I think we should face facts and include only my material on the new album.
+\item John said Yoko has to be present in the studio all the time.  I hit him.  He swore at me.  Ringo said ``Come on boys -- make nice.''  John hit him.  George meditated in a corner.
+\item George Martin convinced us to break and reconvene in a couple of days.
+\end{itemize}
+
+\section*{\Sexpr{date.string(this.year, 3, 16)}}
+
+\textbf{Solo work} \\
+\emph{Approximate Duration: 15 Hours}
+
+\begin{itemize}
+\item Played Twinkle on my bass for 4 hours and then tried to come up with a new melody for my lyric ``The Long and Winding Road''.
+\item Wrote a brilliant \Rlogo script that composes melodies to given lyrics.  Oh man, this is so heavy.  I'm gonna be even more famous.
+\item Can't wait to play the song for the group tomorrow.
+\end{itemize}
+
+\section*{\Sexpr{date.string(this.year, 3, 17)}}
+
+\textbf{Group Meeting} \\
+\emph{Approximate Duration: 2 Hours}
+
+\begin{itemize}
+\item John and I each played a song for the others.  Mine was excellent.  John's sucked.  (He refuses to learn \Rlogo.  What a loser.)  
+\item George Martin said both songs are good for the album.  He'll just rework the melodies and harmonies.
+\item Yoko suggested a change to my song.  I hit John.  He swore at me.  Ringo said ``Come on boys -- make nice.''  John hit him.  George meditated in a corner.
+\item George Martin convinced us to break and reconvene tomorrow.
+\end{itemize}
+
+\section*{\Sexpr{date.string(this.year, 3, 18)}}
+
+\textbf{Group Meeting} \\
+\emph{Approximate Duration: 23 Hours}
+
+\begin{itemize}
+\item George (Harrison) sat in a corner trying to come up to a lead guitar part for my song for 19 hours.
+\item George (Martin) lost it with George (Harrison) and said [plunking a melody on the piano] ``Oh for heaven's sake try this!''  It was bloody good, as usual.  We'll use it.
+\item Yoko suggested a change to the lead line.  I hit John.  He swore at me.  Ringo said ``Come on boys -- make nice.''  John hit him.  George meditated in a corner.
+\item George Martin convinced us to break and reconvene tomorrow.
+\end{itemize}
+
+\vspace{2cm}
+\centerline{\color{red}My dog ate this part of my notebook.}
+\vspace{2cm}
+
+\section*{\Sexpr{date.string(this.year, 4, 4)}}
+
+\textbf{Group Meeting} \\
+\emph{Approximate Duration: 22 Hours}
+
+\begin{itemize}
+\item After listening to the final takes 13 times, we agreed to call the album ``Let It Be''.
+\end{itemize}
+
+\section*{Total time spent on this project}
+
+\begin{quote}
+
+\emph{Group work:} 96 hours
+
+\emph{Solo work:} 132 hours
+
+\end{quote}
+
+\end{document}
