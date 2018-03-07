@@ -26,7 +26,8 @@
 |  | [18](4mbl18_2018.pdf) | Fri 16 Feb 2018 | $\R_0$ |  |
 | 7 | [19](4mbl19_2018.pdf) | Wed 28 Feb 2018 | Space |  |
 |  | [20](4mbl20_2018.pdf) | Fri 2 Mar 2018 | Space II |  |
-| 8 | [21](4mbl21_2018.pdf) | Mon 5 Mar 2018 | Space III |  |
+| 8 | [21](4mbl21_2018.pdf) | Mon 5 Mar 2018 | Space III | pdf includes later lectures |
 |  | [22](4mbl22_2018.pdf) | Wed 7 Mar 2018 | Space IV |  |
+| 9 | [23](4mbl23_2018.pdf) | Mon 12 Mar 2018 | Space V |  |
 
 [Main page for this course](https://davidearn.github.io/math4mb/)
