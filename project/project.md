@@ -10,9 +10,17 @@
 
 ## Project choices
 
+### G1: The Catcher in the π
+
+- Why are influenza epidemics seasonal?
+
 ### G2: The Four Humours
 
 - Fever (_details TBA_)
+
+### G3: The Infective Collective
+
+- Spatial epidemic dynamics: Synchronization
 
 ### G4: The πrates
 
