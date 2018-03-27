@@ -3,6 +3,7 @@
 - Carefully read the [Project Description Document](4mbp_2018.pdf)
 - Discuss project options with your group
 - Make a project proposal to the instructor
+- use the project [template](ProjectTemplate2018.tex) and [bib file](project.bib) if you wish
 
 ### Project notebook
 

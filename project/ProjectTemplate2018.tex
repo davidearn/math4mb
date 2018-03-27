@@ -1,0 +1,84 @@
+\documentclass[12pt]{article}
+\usepackage{scrtime} % for \thistime (this package MUST be listed first!)
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath} % essential for cases environment
+\usepackage{amsthm} % for theorems and proofs
+\usepackage{amsfonts} % mathbb
+\usepackage{graphics,graphicx}
+\usepackage{lineno}
+\usepackage{color}
+\definecolor{aqua}{RGB}{0, 128, 225}
+\usepackage[colorlinks=true,citecolor=aqua,linkcolor=aqua,urlcolor=aqua]{hyperref}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% FANCY HEADER AND FOOTER STUFF %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{fancyhdr,lastpage}
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer parameters
+%%%\lhead{Student Name: \theblank{4cm}}
+%%%\chead{}
+%%%\rhead{Student Number: \theblank{3cm}}
+%%%\lfoot{\small\bfseries\ifnum\thepage<\pageref{LastPage}{CONTINUED\\on next page}\else{LAST PAGE}\fi}
+\lfoot{}
+\cfoot{{\small\bfseries Page \thepage\ of \pageref{LastPage}}}
+\rfoot{}
+\renewcommand\headrulewidth{0pt} % Removes funny header line
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\title{The Theory of Everything}
+
+\author{\underline{\emph{Group Name}}: \texttt{{\color{blue}Two Nobels}}\\
+{}\\
+\underline{\emph{Group Members}}: {\color{blue}Marie Curie, Linus Pauling, John Bardeen, Frederick Sanger}}
+
+\date{\today\ @ \thistime}
+
+\begin{document}
+\linenumbers
+
+\maketitle
+
+\begin{abstract}
+We solve everything because we're really smart\footnote{Marie Curie won the Nobel prize in 1903 (for Physics) and 1911 (for Chemistry); Linus Pauling in 1954 (for Chemistry) and 1962 (for Peace); John Bardeen in 1956 and 1972 (both for Physics); Frederick Sanger 1958 and 1980 (both for Chemistry).}.
+\end{abstract}
+
+\tableofcontents
+
+\section{Background}
+
+It's time for a theory of everything.  Since we're all really smart, we've created one.
+
+\section{Methods}
+
+There is one equation for our theory:
+%
+\begin{linenomath*}
+\begin{equation}\label{E:U}
+U = 0 \,.
+\end{equation}
+\end{linenomath*}
+%
+We leave it as an exercise for the reader to define $U$.
+
+We exploit Euler's formula,
+%
+\begin{linenomath*}
+\begin{equation}\label{E:Euler}
+e^{i\pi} + 1 = 0 \,.
+\end{equation}
+\end{linenomath*}
+%
+
+
+\section{Results}
+
+\autoref{E:U} follows from \autoref{E:Euler} together with the results in a recent brilliant paper \cite{Dush96b}.
+
+\section{Discussion}
+
+This is really important stuff.
+
+\bibliographystyle{vancouver}
+\bibliography{project}
+
+\end{document}
