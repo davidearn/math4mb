@@ -18,4 +18,4 @@ _It is best to write your responses in a text file on your computer, and copy an
 
 - [Contributions survey for Project](https://surveys.mcmaster.ca/limesurvey2/index.php/323577)
 
-[Main page](.)
+[Main page](..)

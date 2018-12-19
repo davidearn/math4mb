@@ -28,4 +28,4 @@
 - Bradley Montgomery
 - Courtney Mulholland
 
-[Main page for this course](.)
+[Main page for this course](..)
