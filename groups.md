@@ -1,31 +1,31 @@
 # Groups
 
-## G1: The Catcher in the π
+## G1: TBA
 
-- William Bell
-- Emma Holmes
-- Brianne Laverty
-- Natasha Sacka
+- 
+- 
+- 
+- 
 
-## G2: The Four Humours
+## G2: TBA
 
-- Alexandra Bushby
-- Alexei Kuzmin
-- Claudia Tugulun
-- Roger Zhang
+- 
+- 
+- 
+- 
 
-## G3: The Infective Collective
+## G3: TBA
 
-- Aurora Basinski-Ferris
-- Michael Chong
-- Daniel Park
-- Daniel Presta
+- 
+- 
+- 
+- 
 
-## G4: The πrates
+## G4: TBA
 
-- Ahmad Mahmood
-- Megan Hartwell
-- Bradley Montgomery
-- Courtney Mulholland
+- 
+- 
+- 
+- 
 
 [Main page for this course](.)
