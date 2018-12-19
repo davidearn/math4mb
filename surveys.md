@@ -4,7 +4,7 @@ _It is best to write your responses in a text file on your computer, and copy an
 
 - [Background and group formation](https://surveys.mcmaster.ca/limesurvey/index.php/698494)
 
-- [Optional respiratory illness survey](https://surveys.mcmaster.ca/limesurvey2/index.php/893454)
+- [Optional respiratory illness survey](https://surveys.mcmaster.ca/limesurvey/index.php/893454)
 
 - [Contributions survey for Assignment 1]()
 
