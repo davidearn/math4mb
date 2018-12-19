@@ -1,6 +1,6 @@
-### 2018 course
+### 2019 course
 
-[Math 4MB3/6MB3 course information sheet 2018](handouts/4mbinfo_2018.pdf)
+[Math 4MB3/6MB3 course information sheet 2019](handouts/4mbinfo_2019.pdf)
 
 [Lectures](lectures/LectureSchedule.md)
 
@@ -15,5 +15,11 @@
 [Project](project/project.md)
 
 ### Information from previous years
+
+[Lectures 2018](2018/lectures/LectureSchedule.md)
+
+[Groups 2018](./2018/groups.md)
+
+[Surveys 2018](./2018/surveys.md)
 
 [2017 Math 4MB/6MB course wiki](http://lalashan.mcmaster.ca/theobio/4MB3/index.php/Main_Page)
