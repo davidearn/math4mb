@@ -1,0 +1,269 @@
+\documentclass[12pt]{article}
+% default: textheight = 7.25 in, textwidth = 5.4166 in (390 pt)
+\textwidth=6in
+\textheight=7.5in
+\hoffset=-0.25in
+\voffset=-0.25in
+
+\usepackage{graphics,graphicx}
+\usepackage[table]{xcolor}
+\newcommand{\url}[1]{{\tt\textcolor{blue}{#1}}}
+\newcommand{\fix}[1]{{\textcolor{red}{FIX: #1}}}
+\newcommand{\note}{\noindent{\bfseries\slshape Note:\/} }
+
+%\usepackage{amssymb,latexsym,amsmath,setspace}
+\usepackage{hyperref}
+%\usepackage{xspace}
+%\usepackage{subfigure}
+%\usepackage{lineno}
+
+\begin{document}
+
+\rightline{
+\scalebox{0.6}{
+\includegraphics{images/maclogo_colour.pdf}
+}
+}
+
+{\Large\parindent=0pt
+
+{\bfseries Mathematics 4MB3/6MB3
+
+{\slshape Mathematical Biology}
+
+Course Information Sheet, Winter 2019
+
+}}
+
+\bigskip
+
+\leftline{{\bf Instructor:} David Earn}
+\leftline{{\bf Office:} Hamilton Hall 317}
+%%\leftline{{\bf Office Hours:} Thursday 15:30-16:20}
+\leftline{{\bf Phone:} (905) 525-9140, x27245}
+\leftline{{\bf E-mail:} {\tt earn@math.mcmaster.ca}}
+\leftline{{\bf Home page:} \url{http://www.math.mcmaster.ca/earn}}
+
+\bigskip
+\leftline{{\bf TA/Marker:} Alexandra Bushby}
+%% 25 hours for 19+6 students in 2013
+%% 15 hours for 12+1 students in 2014
+%% 20 hours for 12+7 students in 2016
+%% 19 hours for 16+0 students in 2017
+%% 20 hours for 14+3 students in 2018
+%% 20 hours for ... students in 2019
+\leftline{{\bf Office:} Hamilton Hall xxx}
+\leftline{{\bf Office Hours:} TBA}
+\leftline{{\bf E-mail:} {\tt bushbya@mcmaster.ca}}
+
+\paragraph*{Class Location:} Hamilton Hall 305
+
+\paragraph*{Class Times:}
+\begin{itemize}\addtolength{\itemsep}{-0.75\baselineskip}
+\item M W Th 10:30am
+%%\item {\color{red}\bfseries\slshape An alternative two-hour slot will be considered (to be discussed in class).}
+%%\item Th 7:00--10:00pm (to be used for midterm test and potentially instead of normal lecture times some weeks; location BSB/B139)
+\end{itemize}
+
+\paragraph*{Prerequisites:} MATH 3F03 ``Advanced Differential Equations'' or an equivalent course in the qualitative theory of nonlinear ordinary differential equations.
+
+\paragraph*{Course Content:}
+Introduction to mathematical modelling of infectious disease (ID) transmission.  Application of ID models to understanding historical epidemics and current problems in infectious disease control.  The primary focus will be on deterministic models, but stochastic models will also be discussed.   Introduction to software for mathematical typesetting, graphics, simulations, phase portraits and bifurcation diagrams.
+
+\paragraph*{Course Objectives:}
+
+\begin{itemize}
+\item To learn to create and analyze mathematical models of biological systems and to relate these models to data from real biological systems.  
+\item To become familiar with some primary research literature in mathematical epidemiology.
+\item To develop skills and experience in conducting collaborative research in mathematical biology.
+\item To learn to present the results of mathematical modelling in documents that are prepared using typesetting and graphics software that are standard in the professional mathematics community.
+\end{itemize}
+
+\paragraph*{Course web site:} \url{http://www.math.mcmaster.ca/earn/4MB3}
+
+\noindent
+Course information, including announcements, handouts, lecture slides, assignments, solutions, links to downloadable course-related software, {\it etc.\/}, will be available on the course web site.  You are expected to check it regularly.
+
+\paragraph*{Groups:} An important aspect of the course will be to learn to work effectively in small groups (ideally 4 students per group).  Groups will be formed early in the course and you will work together on the assignments and final project.  Formation of groups will be discussed in class.  Individuals will submit a group contribution form online after each group assignment and the final project.
+
+\paragraph*{Assignments:} There will be several assignments (probably 4).  Assignments must be submitted on time at the start of the class on the due date.  Late assignments {\bf will NOT} be accepted.
+%
+\begin{center}
+\rowcolors{2}{yellow}{pink}
+\begin{tabular}{c|l}
+\bf Assignment & \bf Tentative Due Date \\\hline
+1 & Mon 21 January 2019 \\
+2 & Mon 4 February 2019 \\
+3 & Mon 25 February 2019 \\
+4 & Mon 11 March 2019 \\
+\end{tabular}
+\end{center}
+%
+\noindent
+Each group will submit one joint document for each assignment.  The document must be typeset in \LaTeX\ and all graphics must be prepared using {\tt R} or {\tt XPPAUT}.  Assignments must be submitted both as (double-sided) hardcopy and by e-mail (one e-mail message from each group, with attachments including all source documents and the final compiled pdf file).
+
+Solutions to selected problems will be distributed by e-mail after the due date.
+\note \emph{Only a selection of problems on each assignment will be marked; your grade on each assignment will be based only on the problems selected for marking.  Problems to be marked will be selected after the due date.}
+%Read the {\bfseries TA philosophy sheet} (available on the course web site) before writing your solutions so you understand what the TA expects.}
+
+% \paragraph*{Quizzes:}
+
+% On assignment due dates, there will be an in-class quiz on the content of the assignment.  
+
+\paragraph*{Tests:}
+
+There will be {\bf one} Term Test:
+\begin{center}
+\rowcolors{2}{yellow}{pink}
+\begin{tabular}{l|c|c}
+\bf Tentative Date & \bf Tentative Time & \bf Tentative Location \\\hline
+Wednesday 13 March 2019 & TBA & TBA \\
+\end{tabular}
+\end{center}
+\noindent
+There will be no make up test. See the policy on excused absences in note~1) below.
+
+\paragraph*{Final Project:}
+The most important component of the course is the final project, which will be done in the same groups as the assignments.  In addition to the final group project document, each individual will submit her/his own ``research notebook'' or ``lab book'' in which s/he has kept track of all work done on the project over the course of the term.  The individual notebooks will be due to be submitted to the instructor several times during the term.  Details about the project will be posted on the course web site several weeks into the term.
+
+\paragraph*{Final Presentation:}
+Near the end of the term, each group will summarize their project in an oral presentation in class (using slides prepared with the {\tt beamer} package in \LaTeX).
+
+\paragraph*{Software:} In order to complete the assignments and final project, you will be required to develop basic competence with software for mathematical typesetting (\LaTeX), graphics and numerical analysis ({\tt R}), and numerical solution of differential equations and bifurcation analysis ({\tt XPPAUT}).  These applications are all open-source free software projects and can be downloaded and installed on any computer.
+\begin{itemize}\addtolength{\itemsep}{-0.5\baselineskip}
+\item \LaTeX:\qquad \url{http://www.latex-project.org/}
+\item {\tt R}:\qquad \url{http://www.r-project.org}
+\item {\tt XPPAUT}:\qquad \url{http://www.math.pitt.edu/\~bard/xpp/xpp.html}
+\end{itemize}
+\noindent You will need to install these applications on your laptop.  If you do not have a laptop, let the instructor know immediately.
+
+\paragraph*{Course style:}
+
+During approximately the first half of the term, there will be lectures, some of which will consist of demonstrations/tutorials about the required software.  Later in the term many classes will be devoted to group project sessions, i.e., class time set aside for group project work with the instuctor present and available to answer questions.
+
+\paragraph*{Communicating with the instructor:}
+
+You will need to send e-mail messages to the instructor.  Bear in mind that the instructor typically receives 100 e-mail messages per day and it is easy for messages to be missed or get backlogged.  Every e-mail message you send to the instructor must have a helpful, descriptive subject line.  The subject line should always have the form ``{\tt Math 4MB3: \dots}''.  Examples might be:
+\begin{verbatim}
+    Math 4MB3: confusion about assignment 1, problem 2a
+    Math 4MB3: progress on extra challenge problem
+    Math 4MB3: dog ate our group's project
+\end{verbatim}
+
+\paragraph*{Communicating with you:}
+
+It is essential that the instructor has a reliable way of contacting you in case a component of your assignments or final project are found to be missing when he begins marking (which might be during the exam period in the case of the project).  If you do not check your McMaster e-mail every day, then you must provide the instructor with an alternative method of communication (\emph{e.g.,} an e-mail address that you do check daily, or your cell number).
+
+\paragraph*{Final Grade:}
+Your final grade will be determined as follows:
+%
+\begin{center}
+\rowcolors{2}{yellow}{pink}
+\begin{tabular}{l|c}
+\bf Component & \bf Weight \\\hline
+Assignments & 20\% \\
+Term Test & 30\% \\
+Final Project & 35\% \\
+Oral Presentation & 10\% \\
+Participation & ~5\% \\
+\end{tabular}
+\end{center}
+\noindent Note that participation includes completing online surveys and peer evaluations as required.
+
+\section*{Reference list}
+There is no course textbook.  However, the following articles should be helpful:
+
+\def\me{\bf Earn, D.J.D.\rm}
+%\font\Csc=cmcsc10
+\def\vol#1{{\bf#1}}
+\def\pp#1{{#1}}
+\begin{itemize}
+
+\item {}\me, 2004. ``Mathematical modelling of recurrent epidemics.'' 
+{\it Pi in the Sky\/}, \vol{8}, 14--17\qquad
+(Intended audience: Keen high school mathematics students)
+
+\item{}\me, 2008. ``A light introduction to modelling recurrent epidemics.'' In {\it Mathematical Epidemiology\/}, F.\ Brauer, P.\ van den Driessche, J.\ Wu (editors) {\it Lecture Notes in Mathematics\/} \vol{1945}, Springer, pp.\ 3--18\qquad
+(Intended audience: undergraduate mathematics students)
+
+\item{}\me, 2009.  ``Mathematical epidemiology of infectious diseases.'' In {\it Mathematical Biology\/}, M.A.\ Lewis, M.A.J.\ Chaplain, J.P.\ Keener, P.K.\ Maini (editors) {\it IAS/Park City Mathematics Series\/} Volume {\bf 14}, American Mathematical Society, pp.\ 151--186\qquad
+(Intended audience: senior undergraduate and beginning graduate mathematics students)
+
+\end{itemize}
+
+\noindent
+These articles and other papers that will be discussed during the course are available at \url{http://www.math.mcmaster.ca/earn/publications.php}.
+
+%%%%For the component of the course that covers evolutionary game theory, the most helpful reference will be ``Game Theory for Biologists'' by Johnstone and Earn.  This textbook is in preparation but the current version is available on a dedicated web site: \url{http://lalashan.mcmaster.ca/theobio/gt4b}.
+
+The following books may also be useful references:
+\vspace{-0.25cm}
+\begin{itemize}\addtolength{\itemsep}{-0.5\baselineskip}
+\item ``Infectious Diseases of Humans: Dynamics and Control'' by Roy Anderson and Robert May (Oxford, 1991).
+
+\item ``Mathematical models in population biology and epidemiology'' by Fred Brauer
+and Carlos Castillo-Chavez (Springer, 2001).
+
+\item ``Modeling Infectious Diseases in Humans and Animals'' by Matt Keeling and Pej Rohani (Princeton, 2008).
+
+\item ``Nonlinear Dynamics and Chaos'' by Steven H.\ Strogatz (1994).
+
+\item ``Simulating, Analyzing, and Animating Dynamical Systems: A Guide to XPPAUT for Researchers and Students'' by Bard Ermentrout (2002).
+
+\end{itemize}
+In addition, the following e-books available through the McMaster library system might be useful:
+\begin{itemize}\addtolength{\itemsep}{-0.5\baselineskip}
+
+\item ``A Primer of Ecology with R'' by M. Henry H. Stevens (Springer, 2009)
+
+\item ``Data Manipulation with R'' by Phil Spector (Springer, 2008)
+
+\item ``Modern Infectious Disease Epidemiology Concepts, Methods, Mathematical Models, and Public Health'' edited by Alexander Kr\"amer, Mirjam Kretzschmar and Klaus Krickeberg (Springer, 2010)
+
+\end{itemize}
+
+%\newpage
+%\bigbreak \bigbreak
+\section*{Notes}
+
+\begin{enumerate}\addtolength{\itemsep}{-0.5\baselineskip}
+
+\item {\bf Policy on missed assignments, tests, lectures or tutorials:} 
+\begin{itemize}
+\item \url{http://www.mcmaster.ca/policy/Students-AcademicStudies/UGCourseMgmt.pdf}.
+\item When using the MSAF, the e-mail address to which you should report your absence for Math 4MB3 is {\tt earn@math.mcmaster.ca}.  In addition, within two working days, you must also contact the instructor directly by e-mail at {\tt earn@math.mcmaster.ca}.  If you miss a test or cannot hand in an assignment on time for a valid reason that has been reported via the MSAF, the final project will then be given appropriate extra weighting.  If you must miss a class, it is your responsiblity to find out what was covered.  The best way to do this is to borrow a classmate's notes, read them over, and then ask your instructor if there is something that you do not understand.
+\end{itemize}
+
+\item The instructor reserves the right to change the weightings in the grading scheme. If changes are made, your grade will be calculated using the original weightings and the new weightings, and you will be given the higher of the two grades.  At the end of the course the grades may be adjusted but this can only increase your grade and will be done uniformly.  The McMaster grade equivalence chart will be used to convert between letter grades, grade points and percentages.  The grade equivalence chart is published in the Undergraduate Calendar at \url{https://registrar.mcmaster.ca/exams/grades/}
+
+\item No calculators or other aids will be allowed during tests or quizzes unless explicitly indicated.
+
+\item You will be required to bring your official McMaster University photo identification card to the term tests and quizzes.
+
+\item The instructor and university reserve the right to modify elements of the course during the term.  The university may change the dates and deadlines for any or all courses in extreme circumstances.  If either type of modification becomes necessary, reasonable notice and communication with the students will be given with explanation and the opportunity to comment on changes.  It is the responsibility of the student to check their McMaster email and course websites weekly during the term and to note any changes.
+
+\end{enumerate}
+
+\section*{Academic Integrity}
+
+You are expected to exhibit honesty and use ethical behaviour in all aspects of the learning process. Academic credentials you earn are rooted in priniciples of honesty and academic integrity.
+
+Academic dishonesty is to knowingly act or fail to act in a way that results or could result in unearned academic credit or advantage.  This behaviour can result in serious consequences, e.g., the grade of zero on an assignment, loss of credit with a notation on the transcript (notation reads: ``Grade of F assigned for academic dishonesty''), and/or suspension or expulsion from the university.
+
+It is your responsibility to understand what constitutes dishonesty.  For information on the various kinds of a academic dishonesty please refer to the Academic Integrity Policy located at \url{http://www.mcmaster.ca/academicintegrity}.  The following illustrates only three forms of academic dishonesty:
+\begin{enumerate}\addtolength{\itemsep}{-0.5\baselineskip}
+
+\item Plagiarism, e.g., the submission of work that is not one's own or for which other credit has been obtained.
+
+\item Improper collaboration in group work. In this course, you are encouraged to discuss the assigned problems with other students in your class. However, you must write the solutions in your own words without referring to any other students' work. The copying or even paraphrasing of other students' solutions will be considered academic dishonesty.
+
+\item Copying or using unauthorized aids during tests, quizzes and examinations.
+
+\end{enumerate}
+
+\bigskip \bigskip
+\noindent
+David Earn\\
+1 January 2019
+
+\end{document}

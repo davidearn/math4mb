@@ -1,6 +1,6 @@
-4mbinfo_2018.pdf:
+4mbinfo_2019.pdf:
 
-all: 4mbinfo_2018.pdf attendance.pdf
+all: 4mbinfo_2019.pdf attendance.pdf
 
 3ainfo_2017.pdf: 3atimetable_2017.tex
 
