@@ -4,7 +4,7 @@
 
 [Assignment 1,  __DUE: Monday 21 Jan 2019 at 10:30am__](4mba1_2019.pdf)
 - [LaTeX template for Assignment 1](Math4MB3Assignment1LaTeXTemplate2019.tex)
-- [LaTeX questions for Assignment 1 (do _not_ edit)](4mbaq.tex)
+- [LaTeX questions for Assignment 1 (do _not_ edit)](4mba1q.tex)
 - [LaTeX preamble file for 4MB3 assignments](4mbapreamble.tex)
 - [BibTeX library file for Assignment 1](4mba1_2019.bib)
 - [R logo as a pdf image](Rlogo.pdf)
