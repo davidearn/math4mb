@@ -1,0 +1,115 @@
+
+%% packages
+\usepackage{scrtime}  % for \thistime (this package MUST be listed first!)
+\usepackage[margin=1in]{geometry} % page layout
+\usepackage{amsmath}  % essential for cases environment
+\usepackage{amsthm}   % for theorems and proofs
+\usepackage{amsfonts} % mathbb
+\usepackage{graphics,graphicx}
+\usepackage{multirow} % fancy tables
+\usepackage{wasysym}  % circle symbols (including half-filled circles)
+\usepackage{enumerate}% fancier enumeration (e.g., a,b,c, ...)
+%\usepackage{xcolor}
+\usepackage{color}
+
+\usepackage{amssymb,latexsym,setspace}
+%%\usepackage[colorlinks,linkcolor=blue]{hyperref}
+\usepackage[colorlinks=true,allcolors=blue]{hyperref}
+\usepackage{xspace}
+\usepackage{subfigure}
+\usepackage{lineno}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}  %% for texi2dvi ~ bug
+\usepackage[normalem]{ulem}
+\usepackage{tikz} % http://www.texample.net/tikz/examples/tikzdevice-demo/
+  % N.B. version 0.6.3 of tikzDevice from Rforge is required!!
+%% improve figure caption typsetting:  (see ~/tex/caption.pdf for manual)
+\usepackage[footnotesize,bf]{caption}
+\usepackage{placeins} % \FloatBarrier
+
+%% comments
+\newcommand{\de}[1]{{\color{red}{\bfseries DE:} #1}}
+
+%% for solutions to multiple choice questions:
+\newcommand{\correct}{{\color{blue}\fbox{\color{red}\checkmark} }}
+
+%% macros
+\newcommand{\reals}{\mathbb{R}}
+\newcommand{\term}[1]{{\bfseries\slshape #1}}
+\newcommand{\Ker}{{\text{Ker}\,}}
+\newcommand{\Range}{{\text{Range}\,}}
+\newcommand{\diag}{{\text{diag}}}
+\newcommand{\alg}{{\text{alg}}}
+\newcommand{\geom}{{\text{geom}}}
+\newcommand{\norm}[1]{\left\|#1\right\|}
+\newcommand{\abs}[1]{\left|#1\right|}
+\newcommand{\R}{{\cal R}}
+\newcommand{\G}{{\cal G}}
+\newcommand{\eps}{\varepsilon}
+\newcommand{\B}{\cal B}
+\newcommand{\Tinf}{T_\textrm{inf}}
+\newcommand{\Shat}{{\hat{S}}}
+\newcommand{\Ihat}{{\hat{I}}}
+\newcommand{\ie}{\emph{i.e., }}
+\newcommand{\eg}{\emph{e.g., }}
+\newcommand{\Rlogo}{\protect\includegraphics[height=2ex,keepaspectratio]{images/Rlogo.pdf}\xspace}
+\newcommand{\XPPAUT}{\texttt{XPPAUT}\xspace}
+\newcommand{\etal}{\textit{et al}.\xspace}
+\newcommand\emphblue[1]{\emph{\color{blue}#1}}
+
+% citation macros
+\newcommand{\citen}[1]{\cite{#1}}
+
+% other macros
+\newcommand{\avg}[1]{{\left\langle#1\right\rangle}}
+\newcommand{\var}[1]{\textrm{var}\left(#1\right)}
+\newcommand{\sem}[1]{\textrm{sem}\left(#1\right)}
+\newcommand{\natinf}{{\mathcal I}}
+\newcommand{\find}{f_{\textrm{i}}}
+\newcommand{\fpop}{f_{\textrm{p}}}
+\newcommand{\logit}{\textrm{logit}}
+\newcommand{\sign}{\textrm{sign}}
+\newcommand{\logistic}{\textrm{logistic}}
+\newcommand{\code}[1]{{\tt #1}}
+\newcommand{\magcode}[1]{{\tt\color{magenta}#1}}
+\newcommand{\redcode}[1]{{\tt\color{red}#1}}
+\newcommand{\blackcode}[1]{{\tt\color{black}#1}}
+
+%%%%%%%%%%%%%%%%%%%
+%% JOURNAL NAMES %%
+%%%%%%%%%%%%%%%%%%%
+\def\AJE{{\it American Journal of Epidemiology\/}}
+\def\PNAS{PNAS}
+\def\JAMA{JAMA}
+\def\BMB{{\it Bulletin of Mathematical Biology\/}}
+
+% references
+\newcommand{\eref}[1]{Equation~\eqref{E:#1}}
+\newcommand{\fref}[1]{Figure~\ref{F:#1}}
+\newcommand{\tref}[1]{Table~\ref{T:#1}}
+\newcommand{\sref}[1]{\S\ref{S:#1}}
+% other macros
+\newcommand{{\Reff}}{{\mathcal{R}}_{\rm eff}}
+\newcommand{{\Sinit}}{S_{\rm init}}
+\newcommand{\supp}{Supplementary Information}
+\newcommand{\StoppedHere}{\bigskip\bigskip{\textcolor{red}{\hrule\centerline{\bfseries STOPPED HERE}\hrule}}\bigskip\bigskip}
+\newcommand{\colvec}[2]{\begin{pmatrix}#1\\#2\end{pmatrix}}
+\newcommand{\diagmat}[3]{\begin{pmatrix}#1&0&0\\0&#2&0\\0&0&#3\end{pmatrix}}
+
+\newcommand{\solution}[1]{{\hfill\break\vspace{-0.5\baselineskip}\break\color{blue}\emph{Solution: }#1}}
+\newcommand{\tr}{\text{tr}}
+
+\newcommand{\thickredline}{\bigskip{\color{red}\hrule height 5pt}\bigskip}
+
+%% for assignment 3:
+\newtheorem{theorem}{Theorem}
+\newtheorem{remark}{Remark}
+\newcommand{\openset}{{\mathcal O}}
+\newcommand{\C}{{\mathcal C}}
+
+%% underline with smash through:
+\newcommand*{\undersmash}[1]{\underline{\smash{#1}}}
+
+%% referring to TeX macros
+\newcommand\ttbackslash{{\tt\char`\\}}
+\newcommand{\macro}[1]{{\tt\ttbackslash#1}}

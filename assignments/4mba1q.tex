@@ -1,0 +1,123 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% QUESTIONS FOR MATH 4MB/6MB ASSIGNMENT 1.          %%
+%% The question texts are used in several documents: %%
+%% assignment, solutions, template,                  %%
+%% hence it is better to load them from this file.   %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% \section{Analysis of the SI model}
+
+\newcommand{\SIanalIntro}{%
+The SI model can be written
+%
+\begin{equation}\label{E:SI}
+  \frac{dI}{dt} = \beta I(N - I) \,,
+\end{equation}
+%
+where $I$ denotes prevalence and $N=S+I$ is the total population size.
+}
+
+\newcommand{\SIanalQa}{%
+Prove that the endemic equiliibrium (EE) is a globally asymptotically stable (GAS) equilibrium by finding an appropriate Lyapunov function.  Note that ``global'' here refers to all biologically relevant initial conditions except the (unstable) disease free equilibrium (DFE).  \\
+\emph{Hint:} Lyapunov functions often look paraboloidal. \\
+\emph{Note:} Notions of stability and Lyapunov functions were discussed in Math 3F03 Lecture 27 in 2013 (\url{http://www.math.mcmaster.ca/earn/3F03}).
+}
+\newcommand{\SIanalQb}{%
+In class we proved only stability of the EE, not asymptotic stability.  Prove GAS ``directly'' in two distinct ways: 
+}
+\newcommand{\SIanalQbi}{%
+find the exact solution of the model and take the limit as $t\to\infty$, and conclude that every solution that starts in the interval $(0,N)$ converges to the EE (this approach works only in situations where you can find the exact solution);
+}
+\newcommand{\SIanalQbii}{%
+given $\epsilon>0$, prove that for any $I(0)\in(0,N)\ \exists t<\infty$ such that $I(t)\in[N-\epsilon,N)$ and use this to establish GAS. (Do not use your exact solution in this part; the point is to use an approach that also works for models that cannot be solved exactly.)
+}
+
+%% \section{Analysis of the basic SIR  model}
+
+\newcommand{\basicSIRanalIntro}{%
+The basic SIR model is specified by the following system of differential equations.
+\begin{subequations}\label{E:SIR}
+\begin{align}
+\frac{dS}{dt} &= -\R_0 SI \label{E:SIR;S}\\
+\noalign{\vspace{5pt}}
+\frac{dI}{dt} &= \R_0 SI - I \label{E:SIR;I}\\
+\noalign{\vspace{5pt}}
+\frac{dR}{dt} &= I \label{E:SIR;R}
+\end{align}
+\end{subequations}
+The state variables $S$, $I$ and $R$ are the proportions of the population that are susceptible, infectious and removed, respectively.  The parameter $\R_0$ is the basic reproduction number.  The time unit has been chosen to be the mean infectious period for convenience.
+}
+
+\newcommand{\basicSIRanalQa}{%
+A quantity of some practical importance is the \term{peak prevalence} of disease in the population, \emph{i.e.,} the maximum proportion of the population that is simultaneously infected.  Find an exact expression for the peak prevalence, given initial conditions ($S_0,I_0$).  Why might a public health official want to know this quantity?
+}
+
+\newcommand{\basicSIRanalQb}{%
+It would be helpful to have an analytical expression for the solution of the model.  Most valuable would be a formula for $I(t)$, which is most closely related to time series data.  You probably will not find a formula for $I(t)$ (extra credit if you do!!) but it is definitely possible to find an exact expression that relates $R$ (proportion removed) and $t$ (time).
+}
+
+\newcommand{\basicSIRanalQbi}{%
+Find such an expression.  \emph{Hint:} Combine the equations for $dS/dt$ and $dR/dt$ into one equation that can be solved for $S$ as a function of $R$.  Then recall that $S+I+R=1$ and use the $dR/dt$ equation again.  \emph{\underline{Note}:} You will end up with an expression for $t$ as a function of $R$, not $R$ as a function $t$.
+%%FIX: students were troubled by getting an integral they couldn't
+%%do. Perhaps say something like:
+%% Don't worry if your expression contains an integral that cannot be
+%% expressed in terms of elementary functions.
+}
+
+\newcommand{\basicSIRanalQbii}{%
+Use your expression for $t(R)$ to find an expression for the time at which peak prevalence will occur.  Why might this be useful?
+}
+
+\newcommand{\basicSIRanalQbiii}{%
+How could your expressions be used to compare with the time series for pneumonia and influenza in Philadelphia in 1918?  (Don't actually do it; just clearly explain your thinking including any assumptions you are making.)  Would you advise your assistant who just graduated with a degree in math and biology to do this (to help you prepare your report for the public health agency)?  Why or why not?
+}
+
+\newcommand{\basicSIRanalQbiv}{%
+Is it possible to find an exact analytical expression for $t$ as a function $S$?
+}
+
+\newcommand{\basicSIRanalQc}{%
+Prove that all solutions of the basic SIR model approach $I=0$ asymptotically, and explain why this makes biological sense.  \emph{Hint:} Is the function $L(S,I)=I$ a Lyapunov function?  Read the \hyperlink{NotesLyapFuns}{Notes on Lyapunov functions} below.
+}
+
+\newcommand{\basicSIRanalQd}{%
+Find and classify the stability of all \undersmash{equilibria} of the basic SIR model.
+}
+
+%%\section*{Notes on Lyapunov functions}\hypertarget{NotesLyapFuns}{}
+
+\long\def\NotesOnLyapunovFunctions{%
+Consider Lyapunov's Stability Theorem as stated in \href{http://lalashan.mcmaster.ca/theobio/3F03/images/3/3b/3fl28_2013.pdf}{Math 3F03 Lecture 28 in 2013}:
+%%\href{../../../3F03/lectures/3fl28_2013.pdf}{Math 3F03 Lecture 28 in 2013}:
+\begin{theorem}[Lyapunov's Direct Method]\label{Th:LyapFun}
+  Consider an equilibrium $X_*$ of $X'=F(X)$ and an open set $\openset$ containing $X_*$.   If $\exists$ a differentiable function $L:{\openset}\to\reals$ such that
+  \begin{enumerate}[(a)]
+  \item $L(X_*)=0$\quad and\quad $L(X)>0$\quad $\forall X\in {\openset}\setminus\{X_*\}$\qquad(\textcolor{blue}{$L$ positive definite on $\openset$})
+ \item $\dot{L}(X)\le0$\quad $\forall X\in {\openset}\setminus\{X_*\}$\qquad (\textcolor{blue}{$\dot L$ negative semi-definite on $\openset$})
+  \end{enumerate}
+  then $X_*$ is stable and $L$ is called a {\bfseries Lyapunov function}.  If, in addition,
+  \begin{enumerate}[(c)]
+  \item $\dot{L}(X)<0$\quad $\forall X\in {\openset}\setminus\{X_*\}$ \qquad (\textcolor{blue}{$\dot L$ negative definite on $\openset$})
+  \end{enumerate}
+ then $X_*$ is asymptotically stable and $L$ is called a {\bfseries strict Lyapunov function}.
+\end{theorem}
+%%This theorem does not help us at any of the continuum of DFEs if our putative Lyapunov function is $L(S,I)=S+I$ or $L(S,I)=I$, since condition (a) fails.  However, 
+Theorem~\ref{Th:LyapFun} can be generalized for analysis of stability of sets more complicated than isolated equilibria, such as periodic orbits or line segments.  If you think through the proof of the theorem above (\eg \cite[\S9.2, theorem stated on p.\,193 and proved on p.\,196]{Hirs+13}), you should be able to convince yourself that the proof still works if the equilibrium $X_*$ is replaced by any \emph{closed forward-invariant set} (often simply called a \emph{closed invariant set}).  This observation allows us to state the following more general theorem.
+
+\begin{theorem}[Lyapunov's Direct Method for Closed Invariant Sets]\label{Th:LyapFunGen}
+Consider a closed invariant set $\C$ of $X'=F(X)$ and an open set $\openset$ containing $\C$.   If $\exists$ a differentiable function $L:\openset\to\reals$ such that
+  \begin{enumerate}[(a)]
+  \item $L(X)=0\ \forall X\in\C$\quad and\quad $L(X)>0$\quad $\forall X\in\openset\setminus\C$\qquad(\textcolor{blue}{$L$ positive definite on $\openset$})
+ \item $\dot{L}(X)\le0$\quad $\forall X\in\openset\setminus\C$\qquad (\textcolor{blue}{$\dot L$ negative semi-definite on $\openset$})
+  \end{enumerate}
+  then $\C$ is stable and $L$ is called a {\bfseries Lyapunov function}.  If, in addition,
+  \begin{enumerate}[(c)]
+  \item $\dot{L}(X)<0$\quad $\forall X\in\openset\setminus\C$\qquad (\textcolor{blue}{$\dot L$ negative definite on $\openset$})
+  \end{enumerate}
+then $\C$ is asymptotically stable and $L$ is called a {\bfseries strict Lyapunov function}.
+\end{theorem}
+Note in the above theorems that open sets are defined relative to the subset of interest; in our case this subset is $\Delta=\{(S,I):S\ge0,\, I\ge0,\, S+I\le1\}$, not all of $\reals^2$.  An open set of $\Delta$ is a set of the form $U\cap\Delta$ where $U$ is an open set of $\reals^2$.  (These sets are said to be open in the \emph{\bfseries relative topology} on $\Delta$.)  In particular, note that $\Delta$ is \emph{open} as a subset of itself, in spite of the fact that it is \emph{not open} as a subset of $\reals^2$, whereas $\Delta$ is closed in both the relative topology on $\Delta$ and the usual topology on $\reals^2$.
+}
+
+%%\bibliographystyle{vancouver}
+%%\bibliography{4mba1_2019}
