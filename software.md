@@ -15,7 +15,9 @@ encouraged to use [DataCamp](https://www.datacamp.com/home) to learn R
 more systematically.  Math 4MB is registered with
 [DataCamp](https://www.datacamp.com/home) so, during the course, you
 are free to explore all their instructional resources without having
-to pay a fee.
+to pay a fee.  If you are unfamiliar with R, the best way to start is
+probably by taking 4 hours to work through DataCamp's
+[Introduction to R](https://www.datacamp.com/courses/free-introduction-to-r).
 
 ### A note about running workstation software remotely for Math & Stats graduate students
 
