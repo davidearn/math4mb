@@ -21,5 +21,3 @@
 [Groups 2018](./2018/groups.md)
 
 [Surveys 2018](./2018/surveys.md)
-
-[2017 Math 4MB/6MB course wiki](http://lalashan.mcmaster.ca/theobio/4MB3/index.php/Main_Page)
