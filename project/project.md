@@ -17,7 +17,7 @@
 
 ### G2: The Four Humours
 
-- Fever (_details TBA_)
+- Fever: heterogeneous vs homogeneous mixing
 
 ### G3: The Infective Collective
 
