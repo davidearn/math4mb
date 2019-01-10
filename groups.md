@@ -14,18 +14,11 @@
 - Sid Reed
 - Daniel Segura
 
-## G3: TBA
+## G3: The Harmonious Society of Tickle-Fiddle Gentlemen
 
-- 
-- 
-- 
-- 
-
-## G4: TBA
-
-- 
-- 
-- 
-- 
+- Grant Doering
+- Judy Chen
+- Kevin Xiao
+- Domenic Galamini
 
 [Main page for this course](.)
