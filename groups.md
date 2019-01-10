@@ -7,12 +7,12 @@
 - Selena Singh
 - Eloise Bray
 
-## G2: TBA
+## G2: Plague Doctors
 
-- 
-- 
-- 
-- 
+- Aref Jadda
+- Jessa Mallare
+- Sid Reed
+- Daniel Segura
 
 ## G3: TBA
 
