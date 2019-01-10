@@ -1,11 +1,11 @@
 # Groups
 
-## G1: TBA
+## G1: πrates
 
-- 
-- 
-- 
-- 
+- Jordan Pyke
+- Gaetano D'Alesio
+- Selena Singh
+- Eloise Bray
 
 ## G2: TBA
 
