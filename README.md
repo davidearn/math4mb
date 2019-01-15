@@ -4,6 +4,9 @@
 - Mondays 9:30-11:20am in HH-410
 - Wednesdays 10:30-11:20am in HH-305
 
+***UPDATE:*** The locations above are correct this week, but starting
+   on Wed 23 Jan 2019, the Wednesday class will be in HH-312 instead.
+
 [Math 4MB3/6MB3 course information sheet 2019](handouts/4mbinfo_2019.pdf)
 
 [Lectures](lectures/LectureSchedule.md)
