@@ -5,7 +5,9 @@
 - Wednesdays 10:30-11:20am in HH-305
 
 ***UPDATE:*** The locations above are correct this week, but starting
-   on Wed 23 Jan 2019, the Wednesday class will be in HH-312 instead.
+on Wed 23 Jan 2019, the Wednesday class will be in HH-312 instead.
+(_Further update:_ No class on Wed 23 Jan 2019!  But the Wednesday
+class will be in HH-312 going forward.)
 
 [Math 4MB3/6MB3 course information sheet 2019](handouts/4mbinfo_2019.pdf)
 
