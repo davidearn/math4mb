@@ -20,8 +20,4 @@
 
 ### Information from previous years
 
-[Lectures 2018](2018/lectures/LectureSchedule.md)
-
-[Groups 2018](./2018/groups.md)
-
-[Surveys 2018](./2018/surveys.md)
+2018: [Lectures](2018/lectures/LectureSchedule.md) [Groups](./2018/groups.md) [Surveys](./2018/surveys.md)
