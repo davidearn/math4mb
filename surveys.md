@@ -8,7 +8,7 @@ _It is best to write your responses in a text file on your computer, and copy an
 
 - [Contributions survey for Assignment 1](https://surveys.mcmaster.ca/limesurvey/index.php/651748)
 
-- [Contributions survey for Assignment 2]()
+- [Contributions survey for Assignment 2](https://surveys.mcmaster.ca/limesurvey/index.php/423598)
 
 - [Contributions survey for Assignment 3]()
 
