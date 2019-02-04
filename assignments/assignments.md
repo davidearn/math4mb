@@ -2,7 +2,7 @@
 
 ### Assignment 1
 
-[Assignment 1,  __DUE: Monday 21 Jan 2019 at 10:30am__](4mba1_2019.pdf)
+[Assignment 1,  __DUE: Monday 21 Jan 2019 at 9:30am__](4mba1_2019.pdf)
 - [LaTeX template for Assignment 1](Math4MB3Assignment1LaTeXTemplate2019.tex)
 - [LaTeX questions for Assignment 1 (do _not_ edit)](4mba1q.tex)
 - [LaTeX preamble file for 4MB3 assignments](4mbapreamble.tex)
@@ -12,19 +12,19 @@
 
 ### Assignment 2
 
-[Assignment 2,  __DUE: Monday 4 February 2019 at 10:30am__](4mba2_2019.pdf)
+[Assignment 2,  __DUE: Monday 4 February 2019 at 9:30am__](4mba2_2019.pdf)
 - [LaTeX questions for Assignment 2 (do _not_ edit)](4mba2q.tex)
 - [KnitR template for Assignment 2](Math4MB3Assignment2KnitRTemplate2019.Rnw)
 
 ### Assignment 3
 
-[Assignment 3,  __DUE: Monday 25 February 2019 at 10:30am__](4mba3_2019.pdf)
+[Assignment 3,  __DUE: Monday 25 February 2019 at 9:30am__](4mba3_2019.pdf)
 - [LaTeX questions for Assignment 3 (do _not_ edit)](4mba3q.tex)
 - [KnitR template for Assignment 3](Math4MB3Assignment3KnitRTemplate2019.Rnw)
 
 ### Assignment 4
 
-[Assignment 4,  __DUE: Monday 11 March 2019 at 10:30am__](4mba4_2019.pdf)
+[Assignment 4,  __DUE: Monday 11 March 2019 at 9:30am__](4mba4_2019.pdf)
 - [LaTeX questions for Assignment 4 (do _not_ edit)](4mba4q.tex)
 - [KnitR template for Assignment 4](Math4MB3Assignment4KnitRTemplate2019.Rnw)
 - [Figure showing smallpox natural history](smpxnathist_p82.pdf)
