@@ -1,0 +1,96 @@
+\documentclass[12pt]{article}
+
+\input{4mbapreamble}
+\input{4mba3q}
+\newcommand{\BeautifulSolution}{{\color{blue}\begin{proof}{\color{magenta}\dots beautifully clear and concise text to be inserted here\dots}\end{proof}}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% FANCY HEADER AND FOOTER STUFF %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{fancyhdr,lastpage}
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer parameters
+%%%\lhead{Student Name: \theblank{4cm}}
+%%%\chead{}
+%%%\rhead{Student Number: \theblank{3cm}}
+%%%\lfoot{\small\bfseries\ifnum\thepage<\pageref{LastPage}{CONTINUED\\on next page}\else{LAST PAGE}\fi}
+\lfoot{}
+\cfoot{{\small\bfseries Page \thepage\ of \pageref{LastPage}}}
+\rfoot{}
+\renewcommand\headrulewidth{0pt} % Removes funny header line
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{center}
+{\bf Mathematics 4MB3/6MB3 Mathematical Biology\\
+\smallskip
+\url{http://www.math.mcmaster.ca/earn/4MB3}\\
+\smallskip
+2019 ASSIGNMENT 3}\\
+\medskip
+\underline{\emph{Group Name}}: \texttt{{\color{blue}The Rolling Stones}}\\
+\medskip
+\underline{\emph{Group Members}}: {\color{blue}Mick Jagger, Keith Richards, Ronnie Wood, Charlie Watts}
+\end{center}
+
+\bigskip
+\noindent
+This assignment is {\bfseries\color{red} due in class} on \textcolor{red}{\bf Monday 25 February 2019 at 9:30am}.
+
+\bigskip
+
+\section*{Analysis of the standard SIR model with vital dynamics}
+
+\SIRintro
+
+\begin{enumerate}[(a)]
+
+\item \SIRa
+\BeautifulSolution
+ 
+\item \SIRb
+\BeautifulSolution
+
+\item \SIRc
+\BeautifulSolution
+
+\item \SIRd
+\BeautifulSolution
+
+\item \SIRe
+\BeautifulSolution
+
+\item \SIRf
+\BeautifulSolution
+
+\item \SIRg
+\BeautifulSolution
+
+\item \SIRh
+\BeautifulSolution
+
+\item \SIRi
+\BeautifulSolution
+
+\item \SIRj
+\BeautifulSolution
+
+\item \SIRk
+\BeautifulSolution
+
+\end{enumerate}
+
+%%\newpage
+%%\bibliographystyle{vancouver}
+%%\bibliography{DavidEarn,MyPubs}
+
+\bigskip\vfill
+
+\centerline{\bf--- END OF ASSIGNMENT ---}
+
+\bigskip
+Compile time for this document:
+\today\ @ \thistime
+
+\end{document}

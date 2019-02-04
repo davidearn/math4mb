@@ -1,0 +1,162 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% QUESTIONS FOR MATH 4MB/6MB ASSIGNMENT 3.          %%
+%% The question texts are used in several documents: %%
+%% assignment, solutions, template,                  %%
+%% hence it is better to load them from this file.   %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\SIRintro}{%
+  Consider the standard SIR model with vital dynamics,
+  \begin{subequations}\label{E:SIR}
+    \begin{align}
+      \frac{dS}{dt} &= \mu N -\frac{\beta}{N} SI - \mu S\\
+      \noalign{\vspace{8pt}}
+      \frac{dI}{dt} &= \frac{\beta}{N} SI - \gamma I - \mu I\\
+      \noalign{\vspace{8pt}}
+      \frac{dR}{dt} &= \gamma I - \mu R
+    \end{align}
+  \end{subequations}
+  where $S$, $I$ and $R$ denote the numbers of susceptible, infectious
+  and removed individuals, respectively, and $N=S+I+R$ is the total
+  population size. The \emph{per capita} rates of birth and death are
+  the same (both are equal to $\mu$). As usual, $\beta$ is the
+  transmission rate and $\gamma$ is the recovery rate.
+}
+
+\newcommand{\SIRa}{%
+ Prove that the population size $N$ is constant and that
+  equations \eqref{E:SIR} are biologically well-defined, \ie the set
+  $\Delta$ of biologically meaningful states is forward-invariant.
+  (Note that you will need to begin by defining precisely the set
+  $\Delta$ and the term ``forward-invariant''.)
+  %% if $0\le S(0),I(0),R(0)\le N$ then $0\le S(t),I(t),R(t)\le N$ for
+  %% all $t>0$.
+}
+
+\newcommand{\SIRb}{%
+ Show that equations \eqref{E:SIR} are equivalent dynamically to
+  equations for the proportions (rather than numbers) of individuals
+  in each disease state. For the remainder of this problem, use the
+  equations in proportional form.
+}
+
+\newcommand{\SIRc}{%
+ Re-express the equations for proportions in \emph{dimensionless}
+  form using the dimensionless time coordinate
+  \begin{subequations}\label{E:dimparms}
+    \begin{equation}
+      \tau=(\gamma+\mu)t\,,
+    \end{equation}
+    and the dimensionless parameters
+    \begin{align}
+      \R_0 &= \frac{\beta}{\gamma+\mu} \,,\\
+      \noalign{\vspace{5pt}}
+      \eps &= \frac {\mu}{\gamma+\mu} \,.
+    \end{align}
+  \end{subequations}
+  What are the biological meanings of $\tau$, $\R_0$ and $\eps$? Why are
+  they good choices for non-dimensionalizing the equations? For a few
+  diseases that you are familiar with, what is the order of magnitude of
+  $\eps$?
+}
+
+\newcommand{\SIRd}{%
+ Show that there are exactly two equilibria: the disease free
+  equilibrium (DFE) at $(S,I)=(1,0)$ and an endemic equilibrium (EE)
+  at $(S,I)=(\Shat,\Ihat)$, where $\Shat$ and $\Ihat$ can be expressed
+  compactly in terms of $\R_0$ and $\eps$.  Are both equilibria always
+  biologically relevant?
+}
+
+\newcommand{\SIRe}{%
+ Show that the DFE is locally asymptotically stable (LAS) if
+  $\R_0<1$ and the EE is LAS if $\R_0>1$.
+}
+
+\newcommand{\SIRf}{%
+ Prove that the DFE is, in fact, globally asymptotically stable (GAS)
+  if $\R_0\le1$. \emph{\underline{Hint}:} This requires some careful
+  analysis. Begin by using the function $L(S,I)=I$, and Theorem~2 stated
+  in Assignment 1 under ``Notes on Lyapunov Functions'', to prove that
+  all initial states in $\Delta$ are attracted to the $S$ axis.
+  \label{DFEGASprob}
+}
+
+\newcommand{\SIRg}{%
+ Prove that the EE is GAS if $\R_0>1$. \quad\emph{\underline{Hint}:}
+  Consider
+  % 
+  \begin{equation}\label{E:LyapFun}
+    L(S,I) = S - \Shat\log{S} + I - \Ihat\log{I} \,,
+  \end{equation}
+  % 
+  and convince yourself that condition (a) in Theorem~1 stated in
+  Assignment 1 under ``Notes on Lyapunov Functions'' can be replaced with
+  % 
+  \begin{equation}\label{E:}
+    L(X)>L(X_*) \quad \text{for all} \quad X\in\openset\setminus\{X_*\} \,.
+  \end{equation}
+  % 
+  \emph{\underline{Note}:} By GAS we mean here that \emph{almost all}
+  initial states are attracted to the EE. One way of making this precise
+  is to say that the \emph{basin of attraction} of the EE is an open,
+  dense subset of $\Delta$. You should completely describe the basins of
+  attraction of both the EE and the DFE. Do your results make biological
+  sense?
+  \label{EEGASprob}
+}
+
+\newcommand{\SIRh}{%
+ Prove that the approach to the EE occurs via damped oscillations
+  if and only if $\eps<\eps^*$, where
+  \begin{equation}\label{E:Gstar}
+    \eps^* = \frac {4(\R_0-1)}{\R_0^2} \,.
+  \end{equation}
+  For which diseases that you are familiar with would you expect damped
+  oscillations versus monotonic convergence to the equilibrium?
+}
+
+\newcommand{\SIRi}{%
+ For $\eps<\eps^*$, derive expressions for the period of damped
+  oscillations onto the EE and the $e$-folding time for decay of the
+  amplitude of oscillation.  Use \Rlogo to make a plot that
+  displays your results graphically for some biologically relevant and
+  illustrative parameter values.
+}
+
+\long\def\SIRj{
+  Prove that as $\R_0$ is increased from $0$ to $\infty$, three
+  ``bifurcations'' occur. In addition, use \Rlogo to make a
+  four-panel plot that illustrates the different dynamics (phase
+  portraits) in each of the four $\R_0$ intervals that have distinct
+  dynamics. (\emph{\underline{Hint}:} I suggest you choose $\eps=8/9$
+  for this figure, but you should explain why this is a good choice.)
+  
+  \smallskip
+  
+  \emph{\underline{Theoretical note}:} The word ``bifurcation'' is in
+  quotes above because many dynamicists would consider only one of the
+  three transitions to be a genuine bifurcation (it happens to be a
+  \emph{transcritical bifurcation}).  The other two dynamical
+  transitions yield biologically relevant qualitative changes, but the
+  phase portraits on either side of the ``bifurcation point'' are
+  actually topologically conjugate.
+
+  \smallskip
+  
+  \emph{\underline{\Rlogo note}:}
+  Computing phase portraits should be easy based on code you've
+  written for solving ODEs in \Rlogo ``from scratch''. However, if you
+  wish, you can use the \texttt{phaseR} package (or another \Rlogo
+  package of your choice) to make the phase portraits.
+}
+
+\newcommand{\SIRk}{%
+  Are there real diseases that display recurrent epidemics for which
+  the standard SIR model that you have studied in this problem might be
+  adequate to explain the observed epidemic dynamics?  If so, which
+  diseases?  If not, why not?
+}
+
+%%\bibliographystyle{vancouver}
+%%\bibliography{4mba3_2019}
