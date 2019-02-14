@@ -19,15 +19,15 @@
 |  | [11](4mbl11_2019.pdf) | Wed 30 Jan 2019 | Epidemic Data Tools |  |
 |  | [12](4mbl12_2019.pdf) | Mon 4 Feb 2019 | Epidemic Data Tools II |  |
 | 5 | [13](4mbl13_2019.pdf) | Mon 4 Feb 2019 | Mechanistic Modelling of Recurrent Epidemics |  |
-|  | [14](4mbl14_2019.pdf) | Wed 6 Feb 2019 | Mechanistic Modelling of Recurrent Epidemics II |  |
+|  | [14](4mbl14_2019.pdf) | Mon 11 Feb 2019 | Mechanistic Modelling of Recurrent Epidemics II |  |
 |  | [15](4mbl15_2019.pdf) | Mon 11 Feb 2019 | Mechanistic Modelling of Recurrent Epidemics III |  |
-| 6 | [16](4mbl16_2019.pdf) | Mon 11 Feb 2019 | Mechanistic Modelling of Recurrent Epidemics IV |  |
-|  | [17](4mbl17_2019.pdf) | Wed 13 Feb 2019 | Mechanistic Modelling of Recurrent Epidemics V |  |
+| 6 | [16](4mbl16_2019.pdf) | Wed 13 Feb 2019 | Mechanistic Modelling of Recurrent Epidemics IV |  |
+|  | [17](4mbl17_2019.pdf) | Mon 25 Feb 2019 | Mechanistic Modelling of Recurrent Epidemics V |  |
 |  | [18](4mbl18_2019.pdf) | Mon 25 Feb 2019 | $\R_0$ |  |
-| 7 | [19](4mbl19_2019.pdf) | Mon 25 Feb 2019 | Space |  |
-|  | [20](4mbl20_2019.pdf) | Wed 27 Feb 2019 | Space II |  |
+| 7 | [19](4mbl19_2019.pdf) | Wed 27 Feb 2019 | Space |  |
+|  | [20](4mbl20_2019.pdf) | Mon 4 Mar 2019 | Space II |  |
 |  | [21](4mbl21_2019.pdf) | Mon 4 Mar 2019 | Space III | pdf includes later lectures |
-| 8 | [22](4mbl22_2019.pdf) | Mon 4 Mar 2019 | Space IV |  |
+| 8 | [22](4mbl22_2019.pdf) | Wed 6 Mar 2019 | Space IV |  |
 |  | [23](4mbl23_2019.pdf) | Wed 6 Mar 2019 | Space V |  |
 |  | [24](4mbl24_2019.pdf) | Mon 11 Mar 2019 | TEST |  |
 
