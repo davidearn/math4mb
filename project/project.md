@@ -11,20 +11,16 @@
 
 ## Project choices
 
-### G1: The Catcher in the π
+### G1: πrates
 
-- Why are influenza epidemics seasonal?
+- (2.6) Predicting transitions in epidemic patterns via bifurcation analysis using `XPPAUT`
 
-### G2: The Four Humours
+### G2: Plague Doctors
 
-- Fever: heterogeneous vs homogeneous mixing
+- (2.2) Mechanistic models vs statistical time series models
 
-### G3: The Infective Collective
+### G3: The Harmonious Society of Tickle-Fiddle Gentlemen
 
-- Spatial epidemic dynamics: Synchronization
-
-### G4: The πrates
-
-- The challenge of eradicating polio
+- (2.4) Effects of medieval practices on epidemic dynamics
 
 [Main page for this course](..)
