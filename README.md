@@ -1,8 +1,6 @@
 ### 2019 course
 
-***NOTE:*** Math 4MB3/6MB3 lectures now take place as follows:
-- Mondays 9:30-11:20am in HH-410
-- Wednesdays 10:30-11:20am in HH-312
+- **NOTE:** _This site has not yet been updated for Fall 2019._
 
 [Math 4MB3/6MB3 course information sheet 2019](handouts/4mbinfo_2019.pdf)
 
