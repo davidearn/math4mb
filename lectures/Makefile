@@ -7,7 +7,7 @@ LectureSchedule.md: LectureSchedule.csv LectureScheduleCSVtoMD.R
 
 %.tex: %.Rnw coursefuns.R
 	Rscript -e "library(knitr); knit('$*.Rnw')"
-%.pdf: %.tex 4mbl00.tex LectureSchedule.csv
+%.pdf: %.tex 4mbl00.tex coursemacros.tex LectureSchedule.csv
 	##if [-e $*.aux ]; then; pdflatex $*; fi;
 	pdflatex -interaction batchmode $*
 	##pdflatex $*
