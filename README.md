@@ -1,8 +1,6 @@
 ### 2019 course
 
-- **NOTE:** _This site has not yet been updated for Fall 2019._
-
-[Math 4MB3/6MB3 course information sheet 2019](handouts/4mbinfo_2019.pdf)
+[Math 4MB3/6MB3 course information sheet, fall 2019](handouts/4mbinfo_2019f.pdf)
 
 [Lectures](lectures/LectureSchedule.md)
 
