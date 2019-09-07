@@ -1,24 +1,31 @@
 # Groups
 
-## G1: πrates
+## G1: 
 
-- Jordan Pyke
-- Gaetano D'Alesio
-- Selena Singh
-- Eloise Bray
+- 
+- 
+- 
+- 
 
-## G2: Plague Doctors
+## G2: 
 
-- Aref Jadda
-- Jessa Mallare
-- Sid Reed
-- Daniel Segura
+- 
+- 
+- 
+- 
 
-## G3: The Harmonious Society of Tickle-Fiddle Gentlemen
+## G3: 
 
-- Grant Doering
-- Judy Chen
-- Kevin Xiao
-- Domenic Galamini
+- 
+- 
+- 
+- 
+
+## G4: 
+
+- 
+- 
+- 
+- 
 
 [Main page for this course](.)
