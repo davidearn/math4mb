@@ -1,0 +1,26 @@
+## Math 4MB3 Lecture Schedule 2018
+lecnum, weeknum, year, month, day, topic, comment, attendance
+01,1,2018,1,08,Epidemic Modelling Intro,[Course information](../handouts/4mbinfo_2018.pdf),18
+02, ,2018,1,10,SI Model,,15
+03, ,2018,1,12,SIR Model,,15
+04,2,2018,1,15,SIR Model II,,16
+05, ,2018,1,17,LaTeX Intro,[LaTeX examples](latexexamples.zip),15
+06, ,2018,1,19,R Intro,[R examples](Rexamples.R),16
+07,3,2018,1,22,R Intro II,[R examples](Rexamples.R),14
+08, ,2018,1,24,Epidemic Data,,14
+09, ,2018,1,26,Epidemic Data II,,15
+10,4,2018,1,29,Epidemic Data III,,13
+11, ,2018,1,31,Epidemic Data Tools,,13
+12, ,2018,2, 2,Epidemic Data Tools II,,13
+13,5,2018,2, 5,Mechanistic Modelling of Recurrent Epidemics,,13
+14, ,2018,2, 7,Mechanistic Modelling of Recurrent Epidemics II,,12
+15, ,2018,2, 9,Mechanistic Modelling of Recurrent Epidemics III,,13
+16,6,2018,2,12,Mechanistic Modelling of Recurrent Epidemics IV,,14
+17, ,2018,2,14,Mechanistic Modelling of Recurrent Epidemics V,,14
+18, ,2018,2,16,$\R_0$,,11
+19,7,2018,2,28,Space,,15
+20, ,2018,3, 2,Space II,,13
+21,8,2018,3, 5,Space III,pdf includes later lectures,12
+22, ,2018,3, 7,Space IV,,13
+23,9,2018,3,12,Space V,,12
+24, ,2018,3,14,Projects,,15
