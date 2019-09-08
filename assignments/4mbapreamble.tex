@@ -113,3 +113,20 @@
 %% referring to TeX macros
 \newcommand\ttbackslash{{\tt\char`\\}}
 \newcommand{\macro}[1]{{\tt\ttbackslash#1}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%http://tex.stackexchange.com/questions/128424/how-to-create-email-hyperlink-with-predefined-subject-in-latex
+\usepackage{etoolbox}
+\makeatletter
+\newcommand\myemail[3]{%                %\newcommand\tpj@compose@mailto[3]{%
+\edef\@tempa{mailto:#1?subject=#2 }%
+\edef\@tempb{\expandafter\html@spaces\@tempa\@empty}%
+\href{\@tempb}{#3}}
+
+\catcode\%=11
+\def\html@spaces#1 #2{#1%20\ifx#2\@empty\else\expandafter\html@spaces\fi#2}
+\catcode\%=14
+\makeatother
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\thiscoursecode}{4MB3}
+\newcommand{\myemaillink}{\myemail{earn@math.mcmaster.ca}{Math \thiscoursecode: }{earn@math.mcmaster.ca}}
