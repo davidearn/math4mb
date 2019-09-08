@@ -2,22 +2,23 @@
 ## placement on course web site (via gh-pages).
 ##
 ## Created:  1 Jan 2018
-## Changed:  
+## Changed:  8 Sep 2019 (one 3 hour lecture per week)
 
 fn <- "LectureSchedule.md"
 
 ##course.code <- "3a"
 course.code <- "4mb"
+term.code <- "f"
 
 LectureScheduleTOP <-
-  "* To download slides for a lecture, click on the lecture number.
+  "* To download slides for a lecture, click on the lecture week number.
 * Slides for a sequence of lectures on the same topic are combined, so you need only the pdf for the final lecture on a given topic.
 * Please e-mail the instructor if you find any errors in slides.
 
 ## Lecture Schedule
 
-| W | L | Date | Topic | Links/Comments |
-|---|---|------|-------|----------------|"
+| Week | Date | Topic | Links/Comments |
+|------|------|-------|----------------|"
 
 LectureScheduleBOTTOM <- sprintf(
   "
@@ -26,7 +27,8 @@ LectureScheduleBOTTOM <- sprintf(
 markdownify <- function(df) {
   with(df,{
     weeknum.string <- ifelse(is.na(weeknum),"",as.character(weeknum))
-    filelink.string <- sprintf("[%2.2d](%sl%2.2d_%d.pdf)",lecnum,course.code,lecnum,year)
+    ##filelink.string <- sprintf("[%2.2d](%sl%2.2d_%d.pdf)",lecnum,course.code,lecnum,year)
+    filelink.string <- sprintf("[%2.2d](%sl%2.2d_%d%s.pdf)",weeknum,course.code,weeknum,year,term.code)
     date.string <- sprintf("%s %d %s %d",
                  weekdays(as.Date(paste(year,month,day,sep="-")),abbreviate=TRUE),
                  day, month.abb[month], year)
@@ -36,8 +38,7 @@ markdownify <- function(df) {
     comment.string <- ifelse(is.na(comment),"",comment)
     comment.string <- sub("SadFace","&#9785;",comment.string,fixed=TRUE)
     return(sprintf(
-"| %s | %s | %s | %s | %s |",
-      weeknum.string,
+"| %s | %s | %s | %s |",
       filelink.string,
       date.string,
       topic.string,
