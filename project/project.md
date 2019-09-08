@@ -9,17 +9,19 @@
 
 - use the [Notebook template](ProjectNotebookTemplate2018.Rnw)
 
-## Project choices
+## Project choices, fall 2019
 
-### G1: πrates
+## Project choices, winter 2019
+
+### πrates
 
 - (2.6) Predicting transitions in epidemic patterns via bifurcation analysis using `XPPAUT`
 
-### G2: Plague Doctors
+### Plague Doctors
 
 - (2.2) Mechanistic models vs statistical time series models
 
-### G3: The Harmonious Society of Tickle-Fiddle Gentlemen
+### The Harmonious Society of Tickle-Fiddle Gentlemen
 
 - (2.4) Effects of medieval practices on epidemic dynamics
 
