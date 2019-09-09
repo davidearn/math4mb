@@ -1,12 +1,12 @@
 ## Math 4MB3 Lecture Schedule, fall 2019
-weeknum, year, month, day, topic, comment, attendance
- 1, 2019, 9, 9,Epidemic Modelling Intro,[Course information](../handouts/4mbinfo_2019f.pdf),
- 2, 2019, 9,16,Epidemic Modelling; Intro to LaTeX and R,[LaTeX examples](latexexamples.zip); [R examples](Rexamples.R),
- 3, 2019, 9,23,Epidemic Data,,
- 4, 2019, 9,30,Epidemic Data Tools,,
- 5, 2019,10, 7,Mechanistic Modelling of Recurrent Epidemics,,
- 6, 2019,10,21,Mechanistic Modelling of Recurrent Epidemics II,,
- 7, 2019,10,28,Mechanistic Modelling of Recurrent Epidemics III; $\R_0$,,
- 8, 2019,11, 4,Space,,
- 9, 2019,11,11,TEST,,
-10, 2019,11,18,Space II,,
+lecnum, weeknum, year, month, day, topic, comment, attendance
+ 1,  1, 2019, 9, 9,Epidemic Modelling Intro,[Course information](../handouts/4mbinfo_2019f.pdf),
+ 2,  2, 2019, 9,16,Epidemic Modelling; Intro to LaTeX and R,[LaTeX examples](latexexamples.zip); [R examples](Rexamples.R),
+ 3,  3, 2019, 9,23,Epidemic Data,,
+ 4,  4, 2019, 9,30,Epidemic Data Tools,,
+ 5,  5, 2019,10, 7,Mechanistic Modelling of Recurrent Epidemics,,
+ 6,  6, 2019,10,21,Mechanistic Modelling of Recurrent Epidemics II,,
+ 7,  7, 2019,10,28,Mechanistic Modelling of Recurrent Epidemics III; $\R_0$,,
+ 8,  8, 2019,11, 4,Space,,
+ 9,  9, 2019,11,11,TEST,,
+10, 10, 2019,11,18,Space II,,
