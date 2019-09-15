@@ -12,7 +12,6 @@
 - Fady Abdelmalek
 - Michael Pupulin
 - Madeline Hendershot
-- _absent classmate_
 
 ## G3: Out of IDEAs
 
