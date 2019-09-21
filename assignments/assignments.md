@@ -10,4 +10,10 @@
 - [R logo as a pdf image](Rlogo.pdf)
 - LaTeX novices might appreciate the [DeTeXify site](http://detexify.kirelabs.org/classify.html)
 
+### Assignment 2
+
+[Assignment 2,  __DUE: Monday 7 October 2019 at 11:30am__](4mba2_2019.pdf)
+- [LaTeX questions for Assignment 2 (do _not_ edit)](4mba2q.tex)
+- [KnitR template for Assignment 2](Math4MB3Assignment2KnitRTemplate2019.Rnw)
+
 [Main page for this course](..)
