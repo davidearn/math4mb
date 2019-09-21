@@ -24,9 +24,9 @@
 \begin{center}
 {\bf Mathematics 4MB3/6MB3 Mathematical Biology\\
 \smallskip
-\url{http://www.math.mcmaster.ca/earn/4MB3}\\
+\url{http://ms.mcmaster.ca/earn/4MB3}\\
 \smallskip
-2019 ASSIGNMENT 2}\\
+Fall 2019 ASSIGNMENT 2}\\
 \medskip
 \underline{\emph{Group Name}}: \texttt{{\color{blue}Cream}}\\
 \medskip
@@ -35,7 +35,8 @@
 
 \bigskip
 \noindent
-This assignment was due in class on \textcolor{red}{\bf Monday 4 February 2019 at 9:30am}.
+This assignment was due on \textcolor{red}{\bf Monday 7 October 2019
+  at 11:30am}.
 
 \section{Plot P\&I mortality in Philadelphia in 1918}
 
