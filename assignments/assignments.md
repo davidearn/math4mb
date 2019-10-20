@@ -22,4 +22,10 @@
 - [LaTeX questions for Assignment 3 (do _not_ edit)](4mba3q.tex)
 - [KnitR template for Assignment 3](Math4MB3Assignment3KnitRTemplate2019.Rnw)
 
+### Assignment 4
+
+[Assignment 4,  __DUE: Monday 4 November 2019 at 11:30am__](4mba4_2019.pdf)
+- [LaTeX questions for Assignment 4 (do _not_ edit)](4mba4q.tex)
+- [KnitR template for Assignment 4](Math4MB3Assignment4KnitRTemplate2019.Rnw)
+
 [Main page for this course](..)
