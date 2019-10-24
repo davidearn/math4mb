@@ -11,6 +11,10 @@
 
 ## Project choices, fall 2019
 
+### Math is Infectious
+
+- (2.3) The challenge of eradicating polio
+
 ## Project choices, winter 2019
 
 ### πrates
