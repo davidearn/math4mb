@@ -15,6 +15,10 @@
 
 - (2.3) The challenge of eradicating polio
 
+### BioMath
+
+- (2.4) Effects of medieval practices on epidemic dynamics
+
 ## Project choices, winter 2019
 
 ### πrates
