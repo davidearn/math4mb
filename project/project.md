@@ -11,13 +11,21 @@
 
 ## Project choices, fall 2019
 
-### Math is Infectious
+### G1: BioMath
+
+- (2.4) Effects of medieval practices on epidemic dynamics
+
+### G2: Math is Infectious
 
 - (2.3) The challenge of eradicating polio
 
-### BioMath
+### G3: Out of IDEAs
 
-- (2.4) Effects of medieval practices on epidemic dynamics
+
+
+## G4: The Awesome Buddies
+
+
 
 ## Project choices, winter 2019
 
