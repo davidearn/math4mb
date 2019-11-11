@@ -21,11 +21,11 @@
 
 ### G3: Out of IDEAs
 
-
+- wild boar...
 
 ## G4: The Awesome Buddies
 
-
+- (2.1) Why are influenza epidemics seasonal?
 
 ## Project choices, winter 2019
 
