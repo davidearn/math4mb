@@ -23,7 +23,7 @@
 
 - wild boar...
 
-## G4: The Awesome Buddies
+### G4: The Awesome Buddies
 
 - (2.1) Why are influenza epidemics seasonal?
 
