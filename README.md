@@ -1,6 +1,6 @@
 ### fall 2024 course
 
-[Math 4MB3/6MB3 course information sheet, fall 2024](handouts/4mbinfo_2024f.pdf)
+[Math 4MB3/6MB3 course information, fall 2024](https://mcmaster.simplesyllabusca.com/en-US/doc/fgibzckz7/Fall-2024-MATH-4MB3-C01-EARN-Mathematical-Biology)
 
 [Lectures](lectures/LectureSchedule.md)
 
