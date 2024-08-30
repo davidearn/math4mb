@@ -2,7 +2,7 @@
 * Slides for a sequence of lectures on the same topic are combined, so you need only the pdf for the final lecture on a given topic.
 * Please e-mail the instructor if you find any errors in slides.
 
-## Lecture Schedule
+## Tentative Lecture Schedule
 
 | Week | Date | Topic | Links/Comments |
 |------|------|-------|----------------|
