@@ -10,22 +10,22 @@ You can find the Windows and OS X versions of the packages collected at http://m
 
 ### Learning R
 
-There will a very brief introduction to R in class.  You are strongly
+There will be a very brief introduction to R in class.  You are strongly
 encouraged to use [DataCamp](https://www.datacamp.com/home) to learn R
 more systematically.  Math 4MB is registered with
 [DataCamp](https://www.datacamp.com/home) so, during the course, you
 are free to explore all their instructional resources without having
 to pay a fee.  If you are unfamiliar with R, the best way to start is
 probably by taking 4 hours to work through DataCamp's
-[Introduction to R](https://www.datacamp.com/courses/free-introduction-to-r).
-
-### A note about running workstation software remotely for Math & Stats graduate students
-
-If you don't have the above applications installed on your laptop or home computer, you can connect to your desktop linux workstation and run them remotely.  This is much easier if you have a Mac or linux computer, but it can still be done for Windows computers.  See [Running Server and Workstation Applications Remotely](http://www.math.mcmaster.ca/mathcomputing/software/?page=running_apps_remotely) on the [Math & Stats Computing Resources web site](http://www.math.mcmaster.ca/mathcomputing/).
+[Introduction to
+R](https://www.datacamp.com/courses/free-introduction-to-r).  There
+are many other ways to learn R using free online resource.  In
+particular, Hadley Wickham's [R for Data Science
+(2e)](https://r4ds.hadley.nz/) is excellent.
 
 # XPPAUT for numerical analysis of dynamical systems
 
-XPPAUT is a powerful program for exploration and bifurcation analysis of dynamical systems.  It is already installed on all of the linux workstations in the math department (which you can login to remotely , as well as from the console).  More importantly, it is open-source free software, which can be downloaded and installed on any computer.
+XPPAUT is a powerful program for exploration and bifurcation analysis of dynamical systems. It is open-source free software, which can be downloaded and installed on any computer.
 
 There are many online resources available for XPPAUT:
 * [XPPAUT home page](http://www.math.pitt.edu/~bard/xpp/xpp.html) (where you can download the source code and/or pre-compiled executables)
