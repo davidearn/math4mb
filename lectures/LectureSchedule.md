@@ -6,7 +6,7 @@
 
 | Week | Date | Topic | Links/Comments |
 |------|------|-------|----------------|
-| [01](4mbl01_2024f.pdf) | Tue 3 Sep 2024 | Epidemic Modelling Intro | [Course information](../handouts/4mbinfo_2024f.pdf) |
+| [01](4mbl01_2024f.pdf) | Tue 3 Sep 2024 | Epidemic Modelling Intro | [Course information](https://mcmaster.simplesyllabusca.com/en-US/doc/fgibzckz7/Fall-2024-MATH-4MB3-C01-EARN-Mathematical-Biology) |
 | [02](4mbl02_2024f.pdf) | Tue 10 Sep 2024 | Epidemic Modelling; Intro to LaTeX and R | [LaTeX examples](latexexamples.zip); [R examples](Rexamples.R) |
 | [03](4mbl03_2024f.pdf) | Tue 17 Sep 2024 | Epidemic Data |  |
 | [04](4mbl04_2024f.pdf) | Tue 24 Sep 2024 | Epidemic Data Tools |  |
