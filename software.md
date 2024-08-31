@@ -1,15 +1,15 @@
 # SOFTWARE
 
 There are two software packages that you must have on your laptop for this course:
-* [LaTeX](#LaTeX)
-* [R](#R) (and the RStudio GUI for R)
+* [LaTeX](#latex)
+* [R](#r) (and the RStudio GUI for R)
 
 In addition, the following applications are recommended and you are
 encouraged to install them on your laptop:
-* [XPPAUT](#XPPAUT)
-* [Emacs](#Emacs)
-* A [spell-checker](#Spell) that understands LaTeX
-* [Tools for online collaboration](#Tools) on documents and code
+* [XPPAUT](#xppaut)
+* [Emacs](#emacs)
+* A [spell-checker](#spell) that understands LaTeX
+* [Tools for online collaboration](#tools) on documents and code
 
 ----
 
@@ -75,7 +75,7 @@ XPPAUT has limited graphical capabilities, but it is always possible to save out
 * Note that XPP expects you to copy the folder xppall from the xppwin.zip file to C:\.
 * Some people have had trouble when browsing to a directory in XPP, particularly going up by clicking "..".  I've created an alternate xpp.bat file which you can download to your desktop and use to run xpp; it will cause xpp to use the folder C:\xppall as the default starting location.  You should copy any new .ode files to this folder if you find that browsing up causes xpp to hang.
 
-### Mac OS X
+### macOS
 * create a folder in /Applications called XPP
 * copy the contents of the XPP disk image to that folder
 * run xpp like so 
@@ -109,6 +109,7 @@ There are a number of [spell-checkers that understand LaTeX](http://en.wikibooks
 * ispell
 * aspell
 * hunspell
+
 All of these run on Macs via the Terminal.
 
 The unix wc command can be used to count words in a plain text file.  To use it, you first need to remove the TeX macros from your file.  You can then pipe the output into wc.  For example, from the terminal window on a Mac you can type
