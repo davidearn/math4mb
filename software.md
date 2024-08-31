@@ -1,12 +1,38 @@
 # SOFTWARE
 
-There are several software packages that you must have on your laptop for this course.
-* LaTeX
-* R (and the RStudio GUI for R)
-* XPPAUT
-* Emacs
-* A spell-checker that understands LaTeX
-You can find the Windows and OS X versions of the packages collected at http://ms.mcmaster.ca/math4mb3.
+There are two software packages that you must have on your laptop for this course:
+* [LaTeX](#LaTeX)
+* [R](#R) (and the RStudio GUI for R)
+
+In addition, the following applications are recommended and you are
+encouraged to install them on your laptop:
+* [XPPAUT](#XPPAUT)
+* [Emacs](#Emacs)
+* A [spell-checker](#Spell) that understands LaTeX
+* [Tools for online collaboration](#Tools) on documents and code
+
+----
+
+# LaTeX
+
+The standard system for mathematical typesetting.  You must use it for your assignments, final project and presentations.
+
+There are several distributions of TeX but [TeXLive](https://www.tug.org/texlive/) has the advantage of having both Windows and OS X versions and including good TeX/LaTeX editors (TeX is a typesetting program and does not itself include an editor).
+
+## Installation & Configuration Notes for LaTeX
+
+### Windows
+* the installation can easily take 30 to 60 minutes
+* just download and run the '''install-tl.exe''' file
+
+### macOS
+* [https://www.tug.org/mactex/ MacTeX] is a bundle of TeXLive plus TeXShop (a very good editor) and a number of tools.
+
+# R
+
+[R](http://www.r-project.org) is an open-source programming language that you can download and install on any computer (it is installed already on all the grad student workstations in the math department).  Installing R gives you the language interpreter and a simple interactive shell.
+
+[RStudio](https://www.rstudio.com/products/rstudio/) is an integrated development environment (IDE) for R. It includes a console, syntax-highlighting editor that supports direct code execution, as well as tools for plotting, history, debugging and workspace management.
 
 ### Learning R
 
@@ -15,11 +41,11 @@ encouraged to use [DataCamp](https://www.datacamp.com/home) to learn R
 more systematically.  Math 4MB is registered with
 [DataCamp](https://www.datacamp.com/home) so, during the course, you
 are free to explore all their instructional resources without having
-to pay a fee.  If you are unfamiliar with R, the best way to start is
-probably by taking 4 hours to work through DataCamp's
+to pay a fee.  If you are unfamiliar with R, a very good way to start is
+to take 4 hours to work through DataCamp's
 [Introduction to
 R](https://www.datacamp.com/courses/free-introduction-to-r).  There
-are many other ways to learn R using free online resource.  In
+are many other ways to learn R using free online resources.  In
 particular, Hadley Wickham's [R for Data Science
 (2e)](https://r4ds.hadley.nz/) is excellent.
 
@@ -65,36 +91,16 @@ After installing XPPAUT, you should be able to explore the SIR model using [[Med
 ```
 then click the _phaseflow_ button and hit `RETURN`.  You should then see a sensible phase portrait.  If you're not working from the command line then start XPPAUT and load `SIR.ode`.
 
-# R
-
-[R](http://www.r-project.org) is an open-source programming language that you can download and install on any computer (it is installed already on all the grad student workstations in the math department).  Installing R gives you the language interpreter and a simple interactive shell.
-
-[RStudio](https://www.rstudio.com/products/rstudio/) is an integrated development environment (IDE) for R. It includes a console, syntax-highlighting editor that supports direct code execution, as well as tools for plotting, history, debugging and workspace management.
-
-# LaTeX
-
-The standard system for mathematical typesetting.  You must use it for your assignments, final project and presentations.   
-
-There are several distributions of TeX but [TeXLive](https://www.tug.org/texlive/) has the advantage of having both Windows and OS X versions and including good TeX/LaTeX editors (TeX is a typesetting program and does not itself include an editor).
-
-## Installation & Configuration Notes for LaTeX
-
-### Windows
-* the installation can easily take 30 to 60 minutes
-* just download and run the '''install-tl.exe''' file
-
-### OS X
-* [https://www.tug.org/mactex/ MacTeX] is a bundle of TeXLive plus TeXShop (a very good editor) and a number of tools.
-
 # Emacs
-Emacs is a very powerful editor and can be used for - among other things - R, LaTeX. The learning curve is a little bit steep, but the payoff comes in efficiency.  Use is optional but encouraged.
+Emacs is a very powerful editor and can be used for - among other
+things - R and LaTeX. The learning curve is a little bit steep, but the payoff comes in efficiency.  Use is optional but encouraged.
 
 ## Installation & Configuration Notes for Emacs
 
 ### Windows
 * make sure to run bin/addpm once in order to configure emacs and create an icon under the Start menu
 
-### OS X
+### macOS
 Aquamacs (http://aquamacs.org) is a good graphical version of Emacs for OS X, but you can just also run the command ```emacs``` from a Terminal or XQuartz window.
 
 # Spell-checkers and word counters that understand LaTeX
