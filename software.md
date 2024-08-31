@@ -49,7 +49,7 @@ are many other ways to learn R using free online resources.  In
 particular, Hadley Wickham's [R for Data Science
 (2e)](https://r4ds.hadley.nz/) is excellent.
 
-# XPPAUT for numerical analysis of dynamical systems <a id="xppaut"></a>
+# XPPAUT <a id="xppaut"></a> for numerical analysis of dynamical systems
 
 XPPAUT is a powerful program for exploration and bifurcation analysis of dynamical systems. It is open-source free software, which can be downloaded and installed on any computer.
 
