@@ -103,7 +103,7 @@ things - R and LaTeX. The learning curve is a little bit steep, but the payoff c
 ### macOS
 Aquamacs (http://aquamacs.org) is a good graphical version of Emacs for OS X, but you can just also run the command ```emacs``` from a Terminal or XQuartz window.
 
-# Spell-checkers and word counters that understand LaTeX
+# Spell-checkers <a id="spell"></a> and word counters that understand LaTeX
 
 There are a number of [spell-checkers that understand LaTeX](http://en.wikibooks.org/wiki/LaTeX/Tips_and_Tricks#Spell-checking_and_Word_Counting), for example:
 * ispell
