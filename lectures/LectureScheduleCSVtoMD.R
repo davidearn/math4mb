@@ -3,6 +3,7 @@
 ##
 ## Created:  1 Jan 2018
 ## Changed:  8 Sep 2019 (one 3 hour lecture per week)
+##          30 Aug 2024 ('Tentative')
 
 fn <- "LectureSchedule.md"
 
@@ -15,7 +16,7 @@ LectureScheduleTOP <-
 * Slides for a sequence of lectures on the same topic are combined, so you need only the pdf for the final lecture on a given topic.
 * Please e-mail the instructor if you find any errors in slides.
 
-## Lecture Schedule
+## Tentative Lecture Schedule
 
 | Week | Date | Topic | Links/Comments |
 |------|------|-------|----------------|"

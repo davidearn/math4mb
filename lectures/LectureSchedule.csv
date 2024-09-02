@@ -1,12 +1,11 @@
-## Math 4MB3 Lecture Schedule, fall 2019
+## Math 4MB3 Lecture Schedule, fall 2024
 lecnum, weeknum, year, month, day, topic, comment, attendance
- 1,  1, 2019, 9, 9,Epidemic Modelling Intro,[Course information](../handouts/4mbinfo_2019f.pdf),
- 2,  2, 2019, 9,16,Epidemic Modelling; Intro to LaTeX and R,[LaTeX examples](latexexamples.zip); [R examples](Rexamples.R),
- 3,  3, 2019, 9,23,Epidemic Data,,
- 4,  4, 2019, 9,30,Epidemic Data Tools,,
- 5,  5, 2019,10, 7,Mechanistic Modelling of Recurrent Epidemics,,
- 6,  6, 2019,10,21,Mechanistic Modelling of Recurrent Epidemics II,,
- 7,  7, 2019,10,28,Mechanistic Modelling of Recurrent Epidemics III; $\R_0$,,
- 8,  8, 2019,11, 4,Space,,
- 9,  9, 2019,11,11,TEST,,
-10, 10, 2019,11,18,Space II,,
+ 1,  1, 2024, 9, 3,Epidemic Modelling Intro,[Course information](https://mcmaster.simplesyllabusca.com/en-US/doc/fgibzckz7/Fall-2024-MATH-4MB3-C01-EARN-Mathematical-Biology),
+ 2,  2, 2024, 9,10,Epidemic Modelling; Intro to LaTeX and R,[LaTeX examples](latexexamples.zip); [R examples](Rexamples.R),
+ 3,  3, 2024, 9,17,Epidemic Data and Time Series Tools,,
+ 4,  4, 2024, 9,24,Mechanistic Modelling of Recurrent Epidemics,,
+ 5,  5, 2024,10, 1,Epidemic Data Tools II,Guest Lecture and Tutorial by Mikael Jagan,
+ 6,  6, 2024,10, 8,Mechanistic Modelling of Recurrent Epidemics II; $\R_0$,,
+ 7,  7, 2024,10,22,Space,,
+ 8,  8, 2024,10,29,Space II,,
+ 9,  9, 2024,11, 5,TEST,,
