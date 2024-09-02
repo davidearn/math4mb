@@ -1,6 +1,6 @@
 ## Final project
 
-- Carefully read the [Project Description Document](4mbp_2019.pdf)
+- Carefully read the [Project Description Document](4mbp_2024.pdf)
 - Discuss project options with your group
 - Make a project proposal to the instructor
 - use the project [template](ProjectTemplate2018.tex) and [bib file](project.bib) if you wish
