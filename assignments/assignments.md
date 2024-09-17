@@ -13,7 +13,7 @@
 
 ### Assignment 2
 
-[Assignment 2,  __DUE: Monday 7 October 2024 at 11:30am__](4mba2_2024.pdf)
+[Assignment 2,  __DUE: Monday 7 October 2024 at 11:59pm__](4mba2_2024.pdf)
 - [LaTeX questions for Assignment 2 (do _not_ edit)](4mba2q.tex)
 - [KnitR template for Assignment 2](Math4MB3Assignment2KnitRTemplate2024.Rnw)
 
