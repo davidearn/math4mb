@@ -9,6 +9,14 @@
 
 - use the [Notebook template](ProjectNotebookTemplate2018.Rnw)
 
+## Project choices, fall 2024
+
+### G1: Acute Triangle
+
+### G2: BioMath
+
+----
+
 ## Project choices, fall 2019
 
 ### G1: BioMath
