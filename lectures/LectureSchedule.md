@@ -12,8 +12,9 @@
 | [04](4mbl04_2024f.pdf) | Tue 24 Sep 2024 | Mechanistic Modelling of Recurrent Epidemics |  |
 | [05](4mbl05_2024f.pdf) | Tue 1 Oct 2024 | Epidemic Data Tools II | Guest Lecture and Tutorial on [epigrowthfit](https://CRAN.R-project.org/package=epigrowthfit) by Mikael Jagan |
 | [06](4mbl06_2024f.pdf) | Tue 8 Oct 2024 | Mechanistic Modelling of Recurrent Epidemics II |  |
-| [07](4mbl07_2024f.pdf) | Tue 22 Oct 2024 | $\R_0$; Space |  |
-| [08](4mbl08_2024f.pdf) | Tue 29 Oct 2024 | Space II |  |
-| [09](4mbl09_2024f.pdf) | Tue 5 Nov 2024 | TEST |  |
+| [07](4mbl07_2024f.pdf) | Tue 22 Oct 2024 | Mechanistic Modelling of Recurrent Epidemics III;$\R_0$ |  |
+| [08](4mbl08_2024f.pdf) | Tue 29 Oct 2024 | Space |  |
+| [09](4mbl09_2024f.pdf) | Tue 5 Nov 2024 | Space II |  |
+| [10](4mbl10_2024f.pdf) | Thu 19 Dec 2024 | TEST |  |
 
 [Main page for this course](https://davidearn.github.io/math4mb/)
