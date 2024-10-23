@@ -25,7 +25,7 @@
 
 ### Assignment 4
 
-[Assignment 4,  __DUE: Monday 4 November 2024 at 11:59pm__](4mba4_2024.pdf)
+[Assignment 4,  __DUE: Monday 11 November 2024 at 11:59pm__](4mba4_2024.pdf)
 - [LaTeX questions for Assignment 4 (do _not_ edit)](4mba4q.tex)
 - [KnitR template for Assignment 4](Math4MB3Assignment4KnitRTemplate2024.Rnw)
 - [Smallpox Natural History figure from Olga Krylova's PhD thesis](smpxnathist_p82.pdf)
