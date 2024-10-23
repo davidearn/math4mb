@@ -16,5 +16,8 @@
 | [08](4mbl08_2024f.pdf) | Tue 29 Oct 2024 | Space |  |
 | [09](4mbl09_2024f.pdf) | Tue 5 Nov 2024 | Space II |  |
 | [10](4mbl10_2024f.pdf) | Tue 12 Nov 2024 | TEST |  |
+| [11](4mbl11_2024f.pdf) | Tue 19 Nov 2024 | Project group work |  |
+| [12](4mbl12_2024f.pdf) | Tue 26 Nov 2024 | Project group work |  |
+| [13](4mbl13_2024f.pdf) | Tue 3 Dec 2024 | Project presentations |  |
 
 [Main page for this course](https://davidearn.github.io/math4mb/)
