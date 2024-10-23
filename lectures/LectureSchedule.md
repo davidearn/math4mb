@@ -15,6 +15,6 @@
 | [07](4mbl07_2024f.pdf) | Tue 22 Oct 2024 | Mechanistic Modelling of Recurrent Epidemics III;$\R_0$ |  |
 | [08](4mbl08_2024f.pdf) | Tue 29 Oct 2024 | Space |  |
 | [09](4mbl09_2024f.pdf) | Tue 5 Nov 2024 | Space II |  |
-| [10](4mbl10_2024f.pdf) | Thu 19 Dec 2024 | TEST |  |
+| [10](4mbl10_2024f.pdf) | Tue 12 Nov 2024 | TEST |  |
 
 [Main page for this course](https://davidearn.github.io/math4mb/)
