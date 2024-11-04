@@ -13,7 +13,11 @@
 
 ### G1: Acute Triangle
 
+- (2.4) Effects of medieval practices on epidemic dynamics
+
 ### G2: BioMath
+
+- (2.1) Why are influenza epidemics seasonal?
 
 ----
 
