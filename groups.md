@@ -1,16 +1,21 @@
 # Groups
 
-## G1: Acute Triangle
+## G1: 
 
-- Nimer Boparai
-- Jasmine Ho
-- Sarah Leong
+- 
+- 
+- 
 
-## G2: BioMath
+## G2: 
 
-- Runtian Zhou
-- Haoyu Wang
-- Afsah Waqas
-- Ruixuan Xie
+- 
+- 
+- 
+
+## G3: 
+
+- 
+- 
+- 
 
 [Main page for this course](.)
