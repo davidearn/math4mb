@@ -6,18 +6,17 @@
 
 | Week | Date | Topic | Links/Comments |
 |------|------|-------|----------------|
-| [01](4mbl01_2024f.pdf) | Tue 3 Sep 2024 | Epidemic Modelling Intro | [Course information](https://mcmaster.simplesyllabusca.com/en-US/doc/fgibzckz7/Fall-2024-MATH-4MB3-C01-EARN-Mathematical-Biology) |
-| [02](4mbl02_2024f.pdf) | Tue 10 Sep 2024 | Epidemic Modelling; Intro to LaTeX and R | [LaTeX examples](latexexamples.zip); [R examples](Rexamples.R) |
-| [03](4mbl03_2024f.pdf) | Tue 17 Sep 2024 | Epidemic Data and Time Series Tools |  |
-| [04](4mbl04_2024f.pdf) | Tue 24 Sep 2024 | Mechanistic Modelling of Recurrent Epidemics |  |
-| [05](4mbl05_2024f.pdf) | Tue 1 Oct 2024 | Epidemic Data Tools II | Guest Lecture and Tutorial on [epigrowthfit](https://CRAN.R-project.org/package=epigrowthfit) by Mikael Jagan |
-| [06](4mbl06_2024f.pdf) | Tue 8 Oct 2024 | Mechanistic Modelling of Recurrent Epidemics II |  |
-| [07](4mbl07_2024f.pdf) | Tue 22 Oct 2024 | Mechanistic Modelling of Recurrent Epidemics III;$\R_0$ |  |
-| [08](4mbl08_2024f.pdf) | Tue 29 Oct 2024 | Space |  |
-| [09](4mbl09_2024f.pdf) | Tue 5 Nov 2024 | Space II |  |
-| [10](4mbl10_2024f.pdf) | Tue 12 Nov 2024 | TEST |  |
-| [11](4mbl11_2024f.pdf) | Tue 19 Nov 2024 | Project group work |  |
-| [12](4mbl12_2024f.pdf) | Tue 26 Nov 2024 | Project group work |  |
-| [13](4mbl13_2024f.pdf) | Tue 3 Dec 2024 | Project presentations |  |
+| [01](4mbl01_2025f.pdf) | Mon 8 Sep 2025 | Epidemic Modelling Intro | [Course information](https://mcmaster.simplesyllabusca.com/en-US/doc/fgibzckz7/Fall-2025-MATH-4MB3-C01-EARN-Mathematical-Biology) |
+| [02](4mbl02_2025f.pdf) | Mon 15 Sep 2025 | Epidemic Modelling; Intro to LaTeX and R | [LaTeX examples](latexexamples.zip); [R examples](Rexamples.R) |
+| [03](4mbl03_2025f.pdf) | Mon 22 Sep 2025 | Epidemic Data and Time Series Tools |  |
+| [04](4mbl04_2025f.pdf) | Mon 29 Sep 2025 | Mechanistic Modelling of Recurrent Epidemics |  |
+| [05](4mbl05_2025f.pdf) | Mon 6 Oct 2025 | Epidemic Data Tools II | Guest Lecture and Tutorial on [epigrowthfit](https://CRAN.R-project.org/package=epigrowthfit) by Mikael Jagan |
+| [06](4mbl06_2025f.pdf) | Mon 13 Oct 2025 | Mechanistic Modelling of Recurrent Epidemics II |  |
+| [07](4mbl07_2025f.pdf) | Mon 20 Oct 2025 | Mechanistic Modelling of Recurrent Epidemics III;$\R_0$ |  |
+| [08](4mbl08_2025f.pdf) | Mon 27 Oct 2025 | Space |  |
+| [09](4mbl09_2025f.pdf) | Mon 3 Nov 2025 | Space II |  |
+| [10](4mbl10_2025f.pdf) | Mon 17 Nov 2025 | TEST |  |
+| [11](4mbl11_2025f.pdf) | Mon 24 Nov 2025 | Project group work |  |
+| [12](4mbl12_2025f.pdf) | Mon 1 Dec 2025 | Project presentations |  |
 
 [Main page for this course](https://davidearn.github.io/math4mb/)
