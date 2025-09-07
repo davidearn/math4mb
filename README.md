@@ -16,7 +16,7 @@
 
 ### Information from previous years
 
-fall 2024: 
+fall 2024: [Lectures](2024f/lectures/LectureSchedule.md), [Groups](./2024f/groups.md), [Surveys](./2024f/surveys.md)
 
 fall 2019: [Lectures](2019f/lectures/LectureSchedule.md), [Groups](./2019f/groups.md), [Surveys](./2019f/surveys.md)
 
