@@ -1,23 +1,27 @@
 # Groups
 
-## G1: Leila and Jennifer
+## G1: 
 
 - Leila Di Bacco
-- Jennifer Xie
 
-## G2: Harrison and Federica
+## G2: "MathAndBio"
+
+- Venus Osmani
+- Todd Pocuca
+
+## G3: "Pink Floyd"
 
 - Harrison D'Souza
 - Federica Marcon
 
-## G3: 
+## G4: "The Torus"
 
-- 
-- 
+- Niv Karo
+- Jaden Said
 
-## G4: 
+## Auditors
 
-- 
-- 
+- Jennifer Xie
+- Colin Grant
 
 [Main page for this course](.)
