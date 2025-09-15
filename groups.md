@@ -1,20 +1,17 @@
 # Groups
 
-## G1: 
+## G1: "MathAndBio"
 
 - Leila Di Bacco
-
-## G2: "MathAndBio"
-
 - Venus Osmani
 - Todd Pocuca
 
-## G3: "Pink Floyd"
+## G2: "Pink Floyd"
 
 - Harrison D'Souza
 - Federica Marcon
 
-## G4: "The Torus"
+## G3: "The Torus"
 
 - Niv Karo
 - Jaden Said
