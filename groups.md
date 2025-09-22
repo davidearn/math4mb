@@ -2,7 +2,6 @@
 
 ## G1: "MathAndBio"
 
-- Leila Di Bacco
 - Venus Osmani
 - Todd Pocuca
 
@@ -10,6 +9,7 @@
 
 - Harrison D'Souza
 - Federica Marcon
+- Leila Di Bacco
 
 ## G3: "The Torus"
 
