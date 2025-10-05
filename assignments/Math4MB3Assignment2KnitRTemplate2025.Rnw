@@ -19,6 +19,8 @@
 \renewcommand\headrulewidth{0pt} % Removes funny header line
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\usepackage[margin=1in]{geometry}
+
 \begin{document}
 
 \begin{center}
