@@ -11,8 +11,8 @@
 | [03](4mbl03_2025f.pdf) | Mon 22 Sep 2025 | R intro; Epidemic Data and Time Series Tools |  |
 | [04](4mbl04_2025f.pdf) | Mon 29 Sep 2025 | Epidemic Data Tools II; Mechanistic Modelling of Recurrent Epidemics I |  |
 | [05](4mbl05_2025f.pdf) | Mon 6 Oct 2025 | Mechanistic Modelling of Recurrent Epidemics II |  |
-| [06](4mbl06_2025f.pdf) | Mon 13 Oct 2025 | Mechanistic Modelling of Recurrent Epidemics III |  |
-| [07](4mbl07_2025f.pdf) | Mon 20 Oct 2025 | Mechanistic Modelling of Recurrent Epidemics IV; $\R_0$ |  |
+| [06](4mbl06_2025f.pdf) | Mon 13 Oct 2025 | Reading Week |  |
+| [07](4mbl07_2025f.pdf) | Mon 20 Oct 2025 | Mechanistic Modelling of Recurrent Epidemics III; $\R_0$ |  |
 | [08](4mbl08_2025f.pdf) | Mon 27 Oct 2025 | Space |  |
 | [09](4mbl09_2025f.pdf) | Mon 3 Nov 2025 | Space II |  |
 | [10](4mbl10_2025f.pdf) | Mon 17 Nov 2025 | TEST |  |
