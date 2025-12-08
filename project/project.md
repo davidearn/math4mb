@@ -9,6 +9,18 @@
 
 - use the [Notebook template](ProjectNotebookTemplate2018.Rnw)
 
+## Project choices, fall 2025
+
+### G1: Pink Floyd
+
+- (2.1) Why are influenza epidemics seasonal?
+
+### G2: The Torus
+
+- (2.3) The challenge of eradicating polio
+
+----
+
 ## Project choices, fall 2024
 
 ### G1: Acute Triangle
