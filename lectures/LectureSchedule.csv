@@ -1,11 +1,16 @@
-## Math 4MB3 Lecture Schedule, fall 2024
-lecnum, weeknum, year, month, day, topic, comment, attendance
- 1,  1, 2024, 9, 3,Epidemic Modelling Intro,[Course information](https://mcmaster.simplesyllabusca.com/en-US/doc/fgibzckz7/Fall-2024-MATH-4MB3-C01-EARN-Mathematical-Biology),
- 2,  2, 2024, 9,10,Epidemic Modelling; Intro to LaTeX and R,[LaTeX examples](latexexamples.zip); [R examples](Rexamples.R),
- 3,  3, 2024, 9,17,Epidemic Data and Time Series Tools,,
- 4,  4, 2024, 9,24,Mechanistic Modelling of Recurrent Epidemics,,
- 5,  5, 2024,10, 1,Epidemic Data Tools II,Guest Lecture and Tutorial by Mikael Jagan,
- 6,  6, 2024,10, 8,Mechanistic Modelling of Recurrent Epidemics II; $\R_0$,,
- 7,  7, 2024,10,22,Space,,
- 8,  8, 2024,10,29,Space II,,
- 9,  9, 2024,11, 5,TEST,,
+## Math 4MB3 Tentative Lecture Schedule, Fall 2026
+lecnum,file,weeknum,year,month,day,topic,comment,attendance
+ 1,4mbl_intro.Rnw,  1,2026, 9, 8,Epidemic Modelling Intro,[Course information](https://mcmaster.simplesyllabusca.com/en-US/doc/j5iehfhk9/Fall-2026-MATH-4MB3-C01-EARN-Mathematical-Biology),
+ 2,4mbl_intro.Rnw,  2,2026, 9,15,Epidemic Modelling; Intro to LaTeX and R,[LaTeX examples](latexexamples.zip); [R examples](Rexamples.R),
+ 3,4mbl_data.Rnw,   3,2026, 9,22,R intro; Epidemic Data and Time Series Tools,,
+ 4,4mbl_data.Rnw,   4,2026, 9,29,Epidemic Data Tools II; Mechanistic Modelling of Recurrent Epidemics I,,
+ 5,4mbl_recurrent.Rnw,5,2026,10, 6,Mechanistic Modelling of Recurrent Epidemics II,,
+## 0,,0,2026,10,13,Mid-term recess (no class),,
+ 6,4mbl_R0.Rnw,     6,2026,10,20,Mechanistic Modelling of Recurrent Epidemics III; $\R_0$,,
+ 7,4mbl_space.Rnw,  7,2026,10,27,Space,,
+ 8,4mbl_space.Rnw,  8,2026,11, 3,Space II,,
+ 9,,                   9,2026,11,10,Project group work,,
+10,,                  10,2026,11,17,TEST,,
+11,,                  11,2026,11,24,Project group work,,
+12,,                  12,2026,12, 1,Project presentations,,
+13,,                  13,2026,12, 8,,,,
