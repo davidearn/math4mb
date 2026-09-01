@@ -11,13 +11,18 @@
 | [3](4mbl_data.pdf) | Tue 22 Sep 2026 | R intro; Epidemic Data and Time Series Tools |  |
 | [4](4mbl_data.pdf) | Tue 29 Sep 2026 | Epidemic Data Tools II; Mechanistic Modelling of Recurrent Epidemics I |  |
 | [5](4mbl_recurrent.pdf) | Tue 6 Oct 2026 | Mechanistic Modelling of Recurrent Epidemics II |  |
+
+<p align="center"><strong>Mid-term recess &mdash; Mon 12 Oct to Sun 18 Oct 2026 (no classes)</strong></p>
+
+| Week | Date | Topic | Links/Comments |
+|------|------|-------|----------------|
 | [6](4mbl_R0.pdf) | Tue 20 Oct 2026 | Mechanistic Modelling of Recurrent Epidemics III; $\R_0$ |  |
 | [7](4mbl_space.pdf) | Tue 27 Oct 2026 | Space |  |
 | [8](4mbl_space.pdf) | Tue 3 Nov 2026 | Space II |  |
 | 9 | Tue 10 Nov 2026 | Project group work |  |
 | 10 | Tue 17 Nov 2026 | TEST | Tentative date; to be confirmed. |
 | 11 | Tue 24 Nov 2026 | Project group work |  |
-| 12 | Tue 1 Dec 2026 | Project presentations |  |
-| 13 | Tue 8 Dec 2026 |  |  |
+| 12 | Tue 1 Dec 2026 | Project group work |  |
+| 13 | Tue 8 Dec 2026 | Project presentations |  |
 
 [Main page for this course](https://davidearn.github.io/math4mb/)

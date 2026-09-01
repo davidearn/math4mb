@@ -20,7 +20,7 @@
 
 ### Information from previous years
 
-fall 2025: [Course home](2025f/README.md), [Lectures](2025f/lectures/LectureSchedule.md), [Groups](2025f/groups.md), [Assignments](2025f/assignments.md), [Project](2025f/project.md)
+fall 2025: [Course home](2025f/README.md), [Lectures](2025f/lectures/LectureSchedule.md), [Groups](2025f/groups.md), [Project](2025f/project.md)
 
 fall 2024: [Lectures](2024f/lectures/LectureSchedule.md), [Groups](./2024f/groups.md), [Surveys](./2024f/surveys.md)
 

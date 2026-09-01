@@ -6,8 +6,6 @@
 
 [Groups](groups.md)
 
-[Assignments](assignments.md)
-
 [Project](project.md)
 
 [Current course page](..)
