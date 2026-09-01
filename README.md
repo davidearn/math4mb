@@ -1,6 +1,6 @@
-### fall 2025 course
+### fall 2026 course
 
-[Math 4MB3/6MB3 course information, fall 2025](https://mcmaster.simplesyllabusca.com/en-US/doc/wqkbytsre/Fall-2025-MATH-4MB3-C01-EARN-)
+[Math 4MB3/6MB3 course information, fall 2026](https://mcmaster.simplesyllabusca.com/en-US/doc/j5iehfhk9/Fall-2026-MATH-4MB3-C01-EARN-Mathematical-Biology)
 
 [Lectures](lectures/LectureSchedule.md)
 
@@ -14,9 +14,13 @@
 
 [Assignments](assignments/assignments.md)
 
+<!-----
 [Project](project/project.md)
+---->
 
 ### Information from previous years
+
+fall 2025: [Course home](2025f/README.md), [Lectures](2025f/lectures/LectureSchedule.md), [Groups](2025f/groups.md), [Assignments](2025f/assignments.md), [Project](2025f/project.md)
 
 fall 2024: [Lectures](2024f/lectures/LectureSchedule.md), [Groups](./2024f/groups.md), [Surveys](./2024f/surveys.md)
 
