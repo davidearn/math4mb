@@ -1,5 +1,9 @@
 # Groups
 
-Fall 2026 groups will be posted after they have been formed.
+## G1: "Grad School Gang"
+
+- Christopher Richard
+- Leo de Vries
+- Anqi Wu
 
 [Main page for this course](.)
