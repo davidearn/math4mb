@@ -10,7 +10,7 @@
 
 - Ryan Atlas
 - Hazel Buechner
-- Mehul
+- Mehul Madhura
 - Aislynne McLean
 
 [Main page for this course](.)
