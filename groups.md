@@ -5,6 +5,7 @@
 - Christopher Richard
 - Leo de Vries
 - Anqi Wu
+- Placide Neuilly
 
 ## G2: "Team Patient Zero"
 
