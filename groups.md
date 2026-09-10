@@ -6,4 +6,11 @@
 - Leo de Vries
 - Anqi Wu
 
+## G2: "Team Patient Zero"
+
+- Ryan Atlas
+- Hazel Buechner
+- Mehul
+- Aislynne McLean
+
 [Main page for this course](.)
