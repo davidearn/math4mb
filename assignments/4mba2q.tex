@@ -49,7 +49,7 @@ The observed mortality time series $M(t)$ is certainly not equal to the prevalen
 }
 
 \newcommand{\EstimateRnb}{%
-Fit a straight line to the part of the Philadelphia 1918 mortality time series that looks straight on a logarithmic scale (and show your result in a plot).  Once you get the hang of it, the easiest way to do this is to use the \code{lm()} function in \Rlogo (lm stands for linear model).  Note that the simplest way to draw a straight line with given slope and intercept is with the \code{abline()} function.  If you find \code{lm()} counter-intutive to understand then experiment with \code{abline()} until your eyes tell you that you have discovered a line that provides a good fit.
+Fit a straight line to the part of the Philadelphia 1918 mortality time series that looks straight on a logarithmic scale (and show your result in a plot).  Once you get the hang of it, the easiest way to do this is to use the \code{lm()} function in \Rlogo (lm stands for linear model).  Note that the simplest way to draw a straight line with given slope and intercept is with the \code{abline()} function.  If you find \code{lm()} counter-intuitive to understand then experiment with \code{abline()} until your eyes tell you that you have discovered a line that provides a good fit.
 }
 
 \newcommand{\EstimateRnc}{%
@@ -81,7 +81,7 @@ One of the arguments of the \code{ode()} function is the function that evaluates
 \begin{center}
 \begin{tabular}{r p{4.25in}}
      \code{t} & The current time, which will be used within the vector field function if the system is non-autonomous. \\
-     \code{vars} & A named vector of the variables in the system (\eg $S$, $I$).  The variables, as named vector passed to this function, are used in the code that defines the vector field within the function. \\
+     \code{vars} & A named vector of the variables in the system (\eg $S$, $I$).  The variables, passed to this function as a named vector, are used in the code that defines the vector field within the function. \\
      \code{parms} & A named vector of the parameters of the system (\eg $\beta$, $\gamma$).  It is convenient---but not necessary---to specify default values for the parameters.
 \end{tabular}
 \end{center}
@@ -94,7 +94,7 @@ The following function plots a single solution of the ODE for a given initial co
 }
 
 \newcommand{\FitSIRbiiiC}{%
-Note here that the call to the \code{ode()} function gives the arguments in the default order so they are interpretted correctly.  If we wished to write the arguments in a different order then we would have to be explicit about which argument is which.  For example, if we wanted to list the initial conditions last for some deep reason then we would have to write:
+Note here that the call to the \code{ode()} function gives the arguments in the default order so they are interpreted correctly.  If we wished to write the arguments in a different order then we would have to be explicit about which argument is which.  For example, if we wanted to list the initial conditions last for some deep reason then we would have to write:
 }
 
 \newcommand{\FitSIRc}{%
@@ -102,7 +102,7 @@ For $I_0=10^{-3}$ and $S_0=1-I_0$, plot the solutions of the SIR model assuming 
 }
 
 \newcommand{\FitSIRd}{%
-By trial and error, find values of $\R_0$ and $\gamma$ that yield a solution of the SIR model that fits the Philadelphia P\&I times series reasonably well.  You can assess the quality of fit using the Euclidean distance between the model solution and the data.  (\emph{Note:}  The trial and error approach is a valuable exercise, but not a suggestion of a method you would really use in practice.  We'll discuss better methods for fitting ODE models to data later.)
+By trial and error, find values of $\R_0$ and $\gamma$ that yield a solution of the SIR model that fits the Philadelphia P\&I time series reasonably well.  You can assess the quality of fit using the Euclidean distance between the model solution and the data.  (\emph{Note:}  The trial and error approach is a valuable exercise, but not a suggestion of a method you would really use in practice.  We'll discuss better methods for fitting ODE models to data later.)
 }
 
 %% \section{Executive summary for the Public Health Agency}
