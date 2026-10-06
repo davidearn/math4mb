@@ -1,6 +1,6 @@
 ## Final project
 
-- Carefully read the [Project Description Document](4mbp_2024.pdf)
+- Carefully read the [Project Description Document](4mbp_2026.pdf)
 - Discuss project options with your group
 - Make a project proposal to the instructor
 - use the project [template](ProjectTemplate2018.tex) and [bib file](project.bib) if you wish
@@ -8,6 +8,18 @@
 ### Project notebook
 
 - use the [Notebook template](ProjectNotebookTemplate2018.Rnw)
+
+## Project choices, fall 2026
+
+### G1: Grad School Gang
+
+- To be confirmed.
+
+### G2: Team Patient Zero
+
+- To be confirmed.
+
+----
 
 ## Project choices, fall 2025
 

@@ -10,7 +10,7 @@
 | 2 | Tue 15 Sep 2026 | Epidemic Modelling; Intro to LaTeX and R | [4mbl_intro.pdf](4mbl_intro.pdf) | 2026 Sep 15, 2:00pm | [LaTeX examples](latexexamples.zip); [R examples](Rexamples.R) |
 | 3 | Tue 22 Sep 2026 | R intro; Epidemic Data and Time Series Tools | [4mbl_data.pdf](4mbl_data.pdf) | 2026 Sep 22, 1:40pm |  |
 | 4 | Tue 29 Sep 2026 | Epidemic Data Tools II; Mechanistic Modelling of Recurrent Epidemics I | [4mbl_data.pdf](4mbl_data.pdf) | 2026 Sep 22, 1:40pm |  |
-| 5 | Tue 6 Oct 2026 | Mechanistic Modelling of Recurrent Epidemics II | [4mbl_recurrent.pdf](4mbl_recurrent.pdf) | 2026 Aug 31, 8:20pm |  |
+| 5 | Tue 6 Oct 2026 | Mechanistic Modelling of Recurrent Epidemics II | [4mbl_recurrent.pdf](4mbl_recurrent.pdf) | 2026 Oct 5, 11:00pm |  |
 
 <p align="center"><strong>Mid-term recess &mdash; Mon 12 Oct to Sun 18 Oct 2026 (no classes)</strong></p>
 

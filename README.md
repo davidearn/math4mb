@@ -14,9 +14,7 @@
 
 [Assignments](assignments/assignments.md)
 
-<!-----
 [Project](project/project.md)
----->
 
 ### Information from previous years
 
