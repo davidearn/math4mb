@@ -17,6 +17,16 @@
 - [LaTeX questions for Assignment 2 (do _not_ edit)](4mba2q.tex)
 - [KnitR template for Assignment 2](Math4MB3Assignment2KnitRTemplate2026.Rnw)
 
-Assignments 3 and 4 will be posted later.
+### Assignment 3
+
+[Assignment 3,  __DUE: Thursday 29 October 2026 at 11:59pm__](4mba3_2026.pdf)
+
+- [KnitR template for Assignment 3](Math4MB3Assignment3KnitRTemplate2026.Rnw)
+- [LaTeX questions for Assignment 3 (do _not_ edit)](4mba3q.tex)
+- [BibTeX library file for Assignment 3](4mba3s_2026.bib)
+- [LaTeX preamble file for 4MB3 assignments](4mbapreamble.tex)
+- [R logo as a pdf image](images/Rlogo.pdf)
+
+Assignment 4 will be posted later.
 
 [Main page for this course](..)

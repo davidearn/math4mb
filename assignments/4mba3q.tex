@@ -17,10 +17,10 @@
     \end{align}
   \end{subequations}
   where $S$, $I$ and $R$ denote the numbers of susceptible, infectious
-  and removed individuals, respectively, and $N=S+I+R$ is the total
+  and removed individuals, respectively, and $N=S+I+R>0$ is the total
   population size. The \emph{per capita} rates of birth and death are
-  the same (both are equal to $\mu$). As usual, $\beta$ is the
-  transmission rate and $\gamma$ is the recovery rate.
+  the same (both are equal to $\mu>0$). As usual, $\beta>0$ is the
+  transmission rate and $\gamma>0$ is the recovery rate.
 }
 
 \newcommand{\SIRa}{%
@@ -61,7 +61,7 @@
 }
 
 \newcommand{\SIRd}{%
- Show that there are exactly two equilibria: the disease free
+ Find the equilibria: the disease free
   equilibrium (DFE) at $(S,I)=(1,0)$ and an endemic equilibrium (EE)
   at $(S,I)=(\Shat,\Ihat)$, where $\Shat$ and $\Ihat$ can be expressed
   compactly in terms of $\R_0$ and $\eps$.  Are both equilibria always
@@ -84,6 +84,8 @@
 
 \newcommand{\SIRg}{%
  Prove that the EE is GAS if $\R_0>1$. \quad\emph{\underline{Hint}:}
+  Read the \hyperref[S:LaSalleNotes]{``Notes on LaSalle's invariance principle''} at the end of
+  this assignment.
   Consider
   % 
   \begin{equation}\label{E:LyapFun}
@@ -93,9 +95,12 @@
   and convince yourself that condition (a) in Theorem~1 stated in
   Assignment 1 under ``Notes on Lyapunov Functions'' can be replaced with
   % 
-  \begin{equation}\label{E:}
+  \begin{equation}
     L(X)>L(X_*) \quad \text{for all} \quad X\in\openset\setminus\{X_*\} \,.
   \end{equation}
+  Use Theorem~1 from Assignment~1 to establish stability and
+  LaSalle's Invariance Principle
+  (\hyperref[Th:LaSalle]{Theorem~\ref*{Th:LaSalle}}) to establish attraction.
   % 
   \emph{\underline{Note}:} By GAS we mean here that \emph{almost all}
   initial states are attracted to the EE. One way of making this precise
@@ -156,6 +161,45 @@
   the standard SIR model that you have studied in this problem might be
   adequate to explain the observed epidemic dynamics?  If so, which
   diseases?  If not, why not?
+}
+
+\long\def\NotesOnLaSalle{
+\section*{Notes on LaSalle's invariance principle}\label{S:LaSalleNotes}
+
+The Lyapunov theorems stated in Assignment 1 distinguish stability
+from attraction. A positive definite $L$ with $\dot L\le0$ proves
+stability, but those theorems require $\dot L<0$ away from the
+equilibrium (or invariant set) to prove attraction. When $\dot L=0$
+at other points, the following result can establish attraction by
+examining which solutions can remain in that zero-derivative set.
+
+\setcounter{theorem}{2}
+\begin{theorem}[LaSalle's invariance principle]\label{Th:LaSalle}
+Consider $X'=F(X)$, where $F$ is continuously differentiable on an
+open set $D\subset\reals^n$. Let $K\subset D$ be compact (closed and
+bounded) and forward-invariant, and let $L:D\to\reals$ be continuously
+differentiable with
+\[
+ \dot L(X)=\nabla L(X)\cdot F(X)\le0 \quad\text{for all }X\in K.
+\]
+Define $E=\{X\in K:\dot L(X)=0\}$, and let $M$ be the largest
+invariant subset of $E$. Then the distance from every solution starting
+in $K$ to $M$ tends to zero as time tends to infinity. In particular,
+if $M$ consists of a single equilibrium, every such solution converges
+to that equilibrium.
+\end{theorem}
+
+Here the largest invariant subset means all the complete trajectories
+that remain in $E$ for all positive and negative times. The set $E$
+itself need not be invariant: a solution may have $\dot L=0$ at one
+instant but then leave $E$, after which $L$ decreases again. LaSalle's
+principle rules out long-term behaviour outside $M$. It does not say
+that every point where $\dot L=0$ is an equilibrium.
+
+For LaSalle's treatment, see Chapter~2, \S6, pp.\,29--32 of
+\cite{LaSalle1976}. Accessible textbook expositions are given by
+Wiggins~\cite[Chapter~7, Theorem~2]{Wiggins2017} and
+Teschl~\cite[\S6.6, Theorem~6.14, p.\,202]{Teschl2012}.
 }
 
 %%\bibliographystyle{vancouver}
