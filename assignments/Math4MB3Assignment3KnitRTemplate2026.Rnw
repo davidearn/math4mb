@@ -41,7 +41,7 @@
 \bigskip
 \noindent
 This assignment is due on \href{https://crowdmark.com/}{Crowdmark} on
-\textcolor{red}{\bf Thursday 29 October 2026 at 11:59pm}.
+\textcolor{red}{\bf Thursday 5 November 2026 at 11:59pm}.
 
 \bigskip
 

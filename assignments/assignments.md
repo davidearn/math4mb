@@ -19,7 +19,7 @@
 
 ### Assignment 3
 
-[Assignment 3,  __DUE: Thursday 29 October 2026 at 11:59pm__](4mba3_2026.pdf)
+[Assignment 3,  __DUE: Thursday 5 November 2026 at 11:59pm__](4mba3_2026.pdf)
 
 - [KnitR template for Assignment 3](Math4MB3Assignment3KnitRTemplate2026.Rnw)
 - [LaTeX questions for Assignment 3 (do _not_ edit)](4mba3q.tex)
