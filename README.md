@@ -13,3 +13,13 @@ available. Keep `lectures/LectureSchedule.md` synchronized with that generated
 schedule. The live website files are maintained separately on the `gh-pages`
 branch in the `gh-pages/` checkout; updating these source files does not publish
 them.
+
+## Ignore rules
+
+`.gitignore` is a regular tracked file specific to this source repository.
+It excludes untracked LaTeX/R build products, caches, generated PDFs and ZIP
+archives, backups, the generated README and lecture-schedule HTML files, and
+the nested `gh-pages/` website checkout and its lecture publication link.
+Already tracked PDFs and `lectures/latexexamples.zip` remain tracked; the
+rules do not remove or untrack any existing files. The ignore rules do not
+depend on the private repository's `.gitignore`.
