@@ -16,7 +16,7 @@
 
 | Week | Date | Topic | Slides | Last update | Links/Comments |
 |---:|:---|:---|:---|:---|:---|
-| 6 | Tue 20 Oct 2026 | Mechanistic Modelling of Recurrent Epidemics III; $\R_0$ | [4mbl_R0.pdf](4mbl_R0.pdf) | 2026 Aug 31, 8:20pm |  |
+| 6 | Tue 20 Oct 2026 | Mechanistic Modelling of Recurrent Epidemics III; $\R_0$ | [4mbl_R0.pdf](4mbl_R0.pdf) | 2026 Oct 20, 2:10pm |  |
 | 7 | Tue 27 Oct 2026 | Space | [4mbl_space.pdf](4mbl_space.pdf) | 2026 Aug 31, 8:20pm |  |
 | 8 | Tue 3 Nov 2026 | Space II | [4mbl_space.pdf](4mbl_space.pdf) | 2026 Aug 31, 8:20pm |  |
 | 9 | Tue 10 Nov 2026 | Project group work |  |  |  |
