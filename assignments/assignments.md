@@ -27,6 +27,10 @@
 - [LaTeX preamble file for 4MB3 assignments](4mbapreamble.tex)
 - [R logo as a pdf image](images/Rlogo.pdf)
 
+### Assignment 4
+
+__DUE: Thursday 19 November 2026 at 11:59pm__
+
 Assignment 4 will be posted later.
 
 [Main page for this course](..)
