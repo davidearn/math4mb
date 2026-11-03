@@ -13,11 +13,11 @@
 
 ### G1: Grad School Gang
 
-- To be confirmed.
+- (2.5) Spatial epidemic dynamics: Synchronization
 
 ### G2: Team Patient Zero
 
-- To be confirmed.
+- (2.4) Effects of medieval practices on epidemic dynamics
 
 ----
 
