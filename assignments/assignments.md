@@ -29,8 +29,11 @@
 
 ### Assignment 4
 
-__DUE: Thursday 19 November 2026 at 11:59pm__
+[Assignment 4,  __DUE: Thursday 19 November 2026 at 11:59pm__](4mba4_2026.pdf)
 
-Assignment 4 will be posted later.
+- [KnitR template for Assignment 4](Math4MB3Assignment4KnitRTemplate2026.Rnw)
+- [LaTeX questions for Assignment 4 (do _not_ edit)](4mba4q.tex)
+- [LaTeX preamble file for 4MB3 assignments](4mbapreamble.tex)
+- [R logo as a pdf image](images/Rlogo.pdf)
 
 [Main page for this course](..)
