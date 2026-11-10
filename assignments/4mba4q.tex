@@ -5,6 +5,9 @@
 %% hence it is better to load them from this file.   %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+%%\newcommand{\diseaseName}{\textcolor{red}{random disease}\xspace}
+\newcommand{\diseaseName}{smallpox\xspace}
+
 \newcommand{\TSa}{%
 You should have received the following data files by e-mail:
 \begin{center}
@@ -59,11 +62,11 @@ Make a multi-panel plot comparing the deterministic and stochastic dynamics of t
 }
 
 \newcommand{\Rintro}{%
-The natural history of smallpox is shown in \fref{smpxnathist}.  The US Centers for Disease Control and Prevention (CDC) has recently discovered that a group of bioterrorists plans to reintroduce smallpox to the United States.  The CDC has reason to believe that the terrorists are also bioengineers and have successfully altered the virus so that it causes the early rash stage to be twice as long as it was when the virus was last circulating naturally in the 1970s.  Moreover, the existing smallpox vaccine apparently provides no protection against the altered virus.  The CDC wants your opinion on how the alterations to the virus will affect $\R_0$ and the expected final size of an epidemic if the planned attack is successful.
+The natural history of \diseaseName is shown in \fref{smpxnathist}.  The US Centers for Disease Control and Prevention (CDC) has recently discovered that a group of bioterrorists plans to reintroduce \diseaseName to the United States.  The CDC has reason to believe that the terrorists are also bioengineers and have successfully altered the virus so that it causes the early rash stage to be twice as long as it was when the virus was last circulating naturally in the 1970s.  Moreover, the existing \diseaseName vaccine apparently provides no protection against the altered virus.  The CDC wants your opinion on how the alterations to the virus will affect $\R_0$ and the expected final size of an epidemic if the planned attack is successful.
 }
 
 \newcommand{\Ra}{%
-Construct a compartmental (ODE) smallpox transmission model based on the natural history specified in \fref{smpxnathist}, including vital dynamics but ignoring disease-induced death.
+Construct a compartmental (ODE) \diseaseName transmission model based on the natural history specified in \fref{smpxnathist}, including vital dynamics but ignoring disease-induced death.
 }
 
 \newcommand{\Rb}{%
@@ -76,7 +79,7 @@ Calculate $\R_0$ using the next generation matrix approach.  \emph{\underline{No
 }
 
 \newcommand{\Rd}{%
-Based on your model, and $\R_0\sim5$ for unaltered smallpox, what can you say about the difference in $\R_0$ that can be expected for the newly engineered virus vs.\ the original virus?  
+Based on your model, and $\R_0\sim5$ for unaltered \diseaseName, what can you say about the difference in $\R_0$ that can be expected for the newly engineered virus vs.\ the original virus?  
     %% (\emph{\underline{Note}:} If you make use of other sources of information, such as books or web sites, cite them appropriately.)
 }
 
@@ -98,7 +101,7 @@ Write a paragraph that you can imagine e-mailing to the CDC, in which you do you
 \includegraphics{smpxnathist_p82.pdf}
 }
 \end{center}
-\caption{\scriptsize The natural history of smallpox infection. The prodrom stage begins with fever but the patient is very rarely contagious. Early rash is the most contagious stage, when the rash develops and transforms into bumps. During the pustular rash stage bumps become pustules, which then turn into scabs during the pustules and scabs stage and fall off during the resolving scabs stage. The infected person is contagious until the last scab falls off.  (\emph{This is Figure 3.4 from page 82 of Olga Krylova's 2011 McMaster University PhD thesis.})}
+\caption{\scriptsize The natural history of \diseaseName infection. The prodrom stage begins with fever but the patient is very rarely contagious. Early rash is the most contagious stage, when the rash develops and transforms into bumps. During the pustular rash stage bumps become pustules, which then turn into scabs during the pustules and scabs stage and fall off during the resolving scabs stage. The infected person is contagious until the last scab falls off.  (\emph{This is Figure 3.4 from page 82 of Olga Krylova's 2011 McMaster University PhD thesis.})}
 \label{F:smpxnathist}
 \end{figure}
 %
