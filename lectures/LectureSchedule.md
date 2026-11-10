@@ -20,7 +20,7 @@
 | 7 | Tue 27 Oct 2026 | Space | [4mbl_space.pdf](4mbl_space.pdf) | 2026 Nov 3, 1:53pm |  |
 | 8 | Tue 3 Nov 2026 | Space II | [4mbl_space.pdf](4mbl_space.pdf) | 2026 Nov 3, 1:53pm | [Assignment 3](../assignments/4mba3_2026.pdf) due **Thu 5 Nov at 11:59pm** |
 | 9 | Tue 10 Nov 2026 | Project group work |  |  |  |
-| 10 | Tue 17 Nov 2026 | Project group work |  |  |  [Assignment 3](../assignments/4mba3_2026.pdf) due **Thu 19 Nov at 11:59pm** |
+| 10 | Tue 17 Nov 2026 | Project group work |  |  |  [Assignment 4](../assignments/4mba4_2026.pdf) due **Thu 19 Nov at 11:59pm** |
 | 11 | Tue 24 Nov 2026 | TEST |  |  | Tentative date; to be confirmed. |
 | 12 | Tue 1 Dec 2026 | Project group work |  |  |  |
 | 13 | Tue 8 Dec 2026 | Project presentations |  |  |  |
