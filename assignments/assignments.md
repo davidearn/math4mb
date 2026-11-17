@@ -34,6 +34,7 @@
 - [KnitR template for Assignment 4](Math4MB3Assignment4KnitRTemplate2026.Rnw)
 - [LaTeX questions for Assignment 4 (do _not_ edit)](4mba4q.tex)
 - [LaTeX preamble file for 4MB3 assignments](4mbapreamble.tex)
+- [Smallpox Natural History figure from Olga Krylova's PhD thesis](smpxnathist_p82.pdf)
 - [R logo as a pdf image](images/Rlogo.pdf)
 
 [Main page for this course](..)
